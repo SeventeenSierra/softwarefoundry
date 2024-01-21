@@ -9,7 +9,7 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - softwarefoundry.com
+    - softwarefoundry.org
     secretName: softwarefoundry-cert
   rules:
   - host: softwarefoundry.org
