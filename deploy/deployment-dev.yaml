@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: softwarefoundry-dev
+  namespace: alyssa
+  annotations:
+    image.openshift.io/triggers: |-
+      [
+        {
+          "from": {
+            "kind": "ImageStreamTag",
+            "name": "softwarefoundry:dev",
+            "namespace": "alyssa"
+          },
+          "fieldPath": "spec.template.spec.containers[?(@.name==\"site\")].image",
+          "paused": false
+        }
+      ]      
+spec:
+  replicas: 1
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 50%
+  selector:
+    matchLabels:
+      app: softwarefoundry-dev
+  template:
+    metadata:
+      labels:
+        app: softwarefoundry-dev
+    spec:
+      containers:
+      - name: site
+        image: softwarefoundry:dev
+        imagePullPolicy: IfNotPresent
+        ports:
+        - name: web
+          containerPort: 3000
+          protocol: TCP

@@ -1,0 +1,24 @@
+kind: Ingress
+apiVersion: networking.k8s.io/v1
+metadata:
+  name: softwarefoundry-dev
+  namespace: alyssa
+  annotations:
+    cert-manager.io/cluster-issuer: le-prod
+spec:
+  ingressClassName: nginx
+  tls:
+  - hosts:
+    - dev.its-a-lisa.com
+    secretName: softwarefoundry-dev-cert
+  rules:
+  - host: dev.its-a-lisa.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: softwarefoundry-dev
+            port:
+              number: 3000
