@@ -231,73 +231,57 @@ function PlasmicHomepage__RenderFunc(props: {
                     </div>
                   }
                   slot3={
-                    <React.Fragment>
-                      <Button
+                    <Button
+                      className={classNames(
+                        "__wab_instance",
+                        sty.button__x2TXd
+                      )}
+                      color={"clear"}
+                      endIcon={
+                        <IconIcon
+                          className={classNames(projectcss.all, sty.svg__nmX7K)}
+                          role={"img"}
+                        />
+                      }
+                      link={`/demo`}
+                      showEndIcon={true}
+                    >
+                      <div
                         className={classNames(
-                          "__wab_instance",
-                          sty.button__x2TXd
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__yq6Ss
                         )}
-                        color={"clear"}
-                        endIcon={
-                          <IconIcon
-                            className={classNames(
-                              projectcss.all,
-                              sty.svg__nmX7K
-                            )}
-                            role={"img"}
-                          />
-                        }
-                        link={`/demo`}
-                        showEndIcon={true}
                       >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__yq6Ss
-                          )}
-                        >
-                          {"Try a Demo"}
-                        </div>
-                      </Button>
-                      <Button
-                        className={classNames(
-                          "__wab_instance",
-                          sty.button__y3Kv9
-                        )}
-                        color={"primary"}
-                        endIcon={
-                          <IconIcon
-                            className={classNames(
-                              projectcss.all,
-                              sty.svg__rHqmM
-                            )}
-                            role={"img"}
-                          />
-                        }
-                        link={`/partnership`}
-                        showEndIcon={true}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__dA6R0
-                          )}
-                        >
-                          {"Become a Partner"}
-                        </div>
-                      </Button>
-                    </React.Fragment>
+                        {"Try a Demo"}
+                      </div>
+                    </Button>
                   }
                   slot4={
                     <Button
                       className={classNames(
                         "__wab_instance",
-                        sty.button__jfMrk
+                        sty.button__y3Kv9
                       )}
+                      color={"primary"}
+                      endIcon={
+                        <IconIcon
+                          className={classNames(projectcss.all, sty.svg__rHqmM)}
+                          role={"img"}
+                        />
+                      }
+                      link={`/partnership`}
+                      showEndIcon={true}
                     >
-                      {"Learn More"}
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__dA6R0
+                        )}
+                      >
+                        {"Become a Partner"}
+                      </div>
                     </Button>
                   }
                   variations={"alpha"}

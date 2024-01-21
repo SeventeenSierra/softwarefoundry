@@ -118,14 +118,6 @@
   align-items: center;
   justify-content: center;
 }
-.h6 {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  display: flex;
-  flex-direction: row;
-  min-width: 0;
-}
 .h3 {
   width: 100%;
   height: auto;
@@ -134,7 +126,15 @@
   flex-direction: row;
   min-width: 0;
 }
-.h3variations_alpha {
+.h1 {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.h1variations_alpha {
   text-align: center;
 }
 .slotTargetSlotvariations_alpha {

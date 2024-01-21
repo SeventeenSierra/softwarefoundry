@@ -68,10 +68,10 @@ export const PlasmicDemo__ArgProps = new Array<ArgPropType>();
 export type PlasmicDemo__OverridesType = {
   root?: p.Flex<"section">;
   pageLayout?: p.Flex<typeof PageLayout>;
-  pageBanerSection?: p.Flex<"div">;
   section?: p.Flex<"section">;
   columns?: p.Flex<"div">;
   column?: p.Flex<"div">;
+  h1?: p.Flex<"h1">;
   img?: p.Flex<typeof p.PlasmicImg>;
   navigationBar?: p.Flex<typeof NavigationBar>;
 };
@@ -209,24 +209,6 @@ function PlasmicDemo__RenderFunc(props: {
               hasGap={true}
               className={classNames(projectcss.all, sty.freeBox__v8K7U)}
             >
-              <div
-                data-plasmic-name={"pageBanerSection"}
-                data-plasmic-override={overrides.pageBanerSection}
-                className={classNames(projectcss.all, sty.pageBanerSection)}
-              >
-                <div className={classNames(projectcss.all, sty.freeBox__ejsPz)}>
-                  <h1
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.h1,
-                      projectcss.__wab_text,
-                      sty.h1__wj7Yb
-                    )}
-                  >
-                    {"get in line for the Professional Planner"}
-                  </h1>
-                </div>
-              </div>
               <section
                 data-plasmic-name={"section"}
                 data-plasmic-override={overrides.section}
@@ -262,11 +244,13 @@ function PlasmicDemo__RenderFunc(props: {
                             )}
                           >
                             <h1
+                              data-plasmic-name={"h1"}
+                              data-plasmic-override={overrides.h1}
                               className={classNames(
                                 projectcss.all,
                                 projectcss.h1,
                                 projectcss.__wab_text,
-                                sty.h1__oM3G9
+                                sty.h1
                               )}
                             >
                               {"coming soon"}
@@ -306,26 +290,26 @@ const PlasmicDescendants = {
   root: [
     "root",
     "pageLayout",
-    "pageBanerSection",
     "section",
     "columns",
     "column",
+    "h1",
     "img",
     "navigationBar"
   ],
   pageLayout: [
     "pageLayout",
-    "pageBanerSection",
     "section",
     "columns",
     "column",
+    "h1",
     "img",
     "navigationBar"
   ],
-  pageBanerSection: ["pageBanerSection"],
-  section: ["section", "columns", "column", "img"],
-  columns: ["columns", "column", "img"],
-  column: ["column", "img"],
+  section: ["section", "columns", "column", "h1", "img"],
+  columns: ["columns", "column", "h1", "img"],
+  column: ["column", "h1", "img"],
+  h1: ["h1"],
   img: ["img"],
   navigationBar: ["navigationBar"]
 } as const;
@@ -335,10 +319,10 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   root: "section";
   pageLayout: typeof PageLayout;
-  pageBanerSection: "div";
   section: "section";
   columns: "div";
   column: "div";
+  h1: "h1";
   img: typeof p.PlasmicImg;
   navigationBar: typeof NavigationBar;
 };
@@ -404,10 +388,10 @@ export const PlasmicDemo = Object.assign(
   {
     // Helper components rendering sub-elements
     pageLayout: makeNodeComponent("pageLayout"),
-    pageBanerSection: makeNodeComponent("pageBanerSection"),
     section: makeNodeComponent("section"),
     columns: makeNodeComponent("columns"),
     column: makeNodeComponent("column"),
+    h1: makeNodeComponent("h1"),
     img: makeNodeComponent("img"),
     navigationBar: makeNodeComponent("navigationBar"),
 

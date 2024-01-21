@@ -69,9 +69,9 @@ export const PlasmicPartnership__ArgProps = new Array<ArgPropType>();
 export type PlasmicPartnership__OverridesType = {
   root?: p.Flex<"section">;
   pageLayout?: p.Flex<typeof PageLayout>;
-  pageBanerSection?: p.Flex<"div">;
   section?: p.Flex<"section">;
   img?: p.Flex<typeof p.PlasmicImg>;
+  h1?: p.Flex<"h1">;
   formContainer2?: p.Flex<"div">;
   textbox?: p.Flex<"input">;
   textbox3?: p.Flex<"input">;
@@ -241,26 +241,6 @@ function PlasmicPartnership__RenderFunc(props: {
               hasGap={true}
               className={classNames(projectcss.all, sty.freeBox__dTiQj)}
             >
-              <div
-                data-plasmic-name={"pageBanerSection"}
-                data-plasmic-override={overrides.pageBanerSection}
-                className={classNames(projectcss.all, sty.pageBanerSection)}
-              >
-                <div
-                  className={classNames(projectcss.all, sty.freeBox___4QZ5T)}
-                >
-                  <h1
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.h1,
-                      projectcss.__wab_text,
-                      sty.h1__bvS6A
-                    )}
-                  >
-                    {"get in line for the Professional Planner"}
-                  </h1>
-                </div>
-              </div>
               <section
                 data-plasmic-name={"section"}
                 data-plasmic-override={overrides.section}
@@ -323,11 +303,13 @@ function PlasmicPartnership__RenderFunc(props: {
                             )}
                           >
                             <h1
+                              data-plasmic-name={"h1"}
+                              data-plasmic-override={overrides.h1}
                               className={classNames(
                                 projectcss.all,
                                 projectcss.h1,
                                 projectcss.__wab_text,
-                                sty.h1__fBwJi
+                                sty.h1
                               )}
                             >
                               {"Sign up TO BECOME A PARTNER"}
@@ -528,9 +510,9 @@ const PlasmicDescendants = {
   root: [
     "root",
     "pageLayout",
-    "pageBanerSection",
     "section",
     "img",
+    "h1",
     "formContainer2",
     "textbox",
     "textbox3",
@@ -539,25 +521,26 @@ const PlasmicDescendants = {
   ],
   pageLayout: [
     "pageLayout",
-    "pageBanerSection",
     "section",
     "img",
+    "h1",
     "formContainer2",
     "textbox",
     "textbox3",
     "textarea",
     "navigationBar"
   ],
-  pageBanerSection: ["pageBanerSection"],
   section: [
     "section",
     "img",
+    "h1",
     "formContainer2",
     "textbox",
     "textbox3",
     "textarea"
   ],
   img: ["img"],
+  h1: ["h1"],
   formContainer2: ["formContainer2", "textbox", "textbox3", "textarea"],
   textbox: ["textbox"],
   textbox3: ["textbox3"],
@@ -570,9 +553,9 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   root: "section";
   pageLayout: typeof PageLayout;
-  pageBanerSection: "div";
   section: "section";
   img: typeof p.PlasmicImg;
+  h1: "h1";
   formContainer2: "div";
   textbox: "input";
   textbox3: "input";
@@ -641,9 +624,9 @@ export const PlasmicPartnership = Object.assign(
   {
     // Helper components rendering sub-elements
     pageLayout: makeNodeComponent("pageLayout"),
-    pageBanerSection: makeNodeComponent("pageBanerSection"),
     section: makeNodeComponent("section"),
     img: makeNodeComponent("img"),
+    h1: makeNodeComponent("h1"),
     formContainer2: makeNodeComponent("formContainer2"),
     textbox: makeNodeComponent("textbox"),
     textbox3: makeNodeComponent("textbox3"),

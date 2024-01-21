@@ -82,8 +82,8 @@ export const PlasmicHero__ArgProps = new Array<ArgPropType>(
 
 export type PlasmicHero__OverridesType = {
   root?: p.Flex<"div">;
-  h6?: p.Flex<"h6">;
   h3?: p.Flex<"h3">;
+  h1?: p.Flex<"h1">;
 };
 
 export interface DefaultHeroProps {
@@ -211,23 +211,23 @@ function PlasmicHero__RenderFunc(props: {
               )
             })}
           >
-            <h6
-              data-plasmic-name={"h6"}
-              data-plasmic-override={overrides.h6}
-              className={classNames(projectcss.all, projectcss.h6, sty.h6, {
-                [sty.h6flip]: hasVariant($state, "flip", "flip")
+            <h3
+              data-plasmic-name={"h3"}
+              data-plasmic-override={overrides.h3}
+              className={classNames(projectcss.all, projectcss.h3, sty.h3, {
+                [sty.h3flip]: hasVariant($state, "flip", "flip")
               })}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "Achieve the Perfect Work-Life Harmony",
                 value: args.children
               })}
-            </h6>
-            <h3
-              data-plasmic-name={"h3"}
-              data-plasmic-override={overrides.h3}
-              className={classNames(projectcss.all, projectcss.h3, sty.h3, {
-                [sty.h3variations_alpha]: hasVariant(
+            </h3>
+            <h1
+              data-plasmic-name={"h1"}
+              data-plasmic-override={overrides.h1}
+              className={classNames(projectcss.all, projectcss.h1, sty.h1, {
+                [sty.h1variations_alpha]: hasVariant(
                   $state,
                   "variations",
                   "alpha"
@@ -246,7 +246,7 @@ function PlasmicHero__RenderFunc(props: {
                   )
                 })
               })}
-            </h3>
+            </h1>
           </p.Stack>
           <div className={classNames(projectcss.all, sty.freeBox__qZzxd)}>
             {p.renderPlasmicSlot({
@@ -295,17 +295,17 @@ function PlasmicHero__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "h6", "h3"],
-  h6: ["h6"],
-  h3: ["h3"]
+  root: ["root", "h3", "h1"],
+  h3: ["h3"],
+  h1: ["h1"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  h6: "h6";
   h3: "h3";
+  h1: "h1";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -368,8 +368,8 @@ export const PlasmicHero = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    h6: makeNodeComponent("h6"),
     h3: makeNodeComponent("h3"),
+    h1: makeNodeComponent("h1"),
 
     // Metadata about props expected for PlasmicHero
     internalVariantProps: PlasmicHero__VariantProps,

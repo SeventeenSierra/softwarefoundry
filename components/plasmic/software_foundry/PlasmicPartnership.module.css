@@ -45,89 +45,6 @@
   > img {
   margin-top: 0px;
 }
-.pageBanerSection {
-  position: relative;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  background: linear-gradient(#dbf6edb3, #dbf6edb3),
-    url("https://cdn.pixabay.com/photo/2015/11/07/10/59/toronto-city-hall-1030708_1280.jpg")
-      left 50% bottom 70% / cover repeat;
-  transform: translateX(0px) translateY(0px) translateZ(0px);
-  border-top-width: 0px;
-  border-right-width: 100px;
-  border-bottom-width: 0px;
-  border-left-width: 100px;
-  min-width: 0;
-  display: none;
-  border-radius: 0px;
-  padding: 80px 20px;
-  border-style: solid;
-  border-color: var(--token-SpHUTRhu8lYk);
-}
-@media (min-width: 0px) and (max-width: 768px) {
-  .pageBanerSection {
-    border-top-width: 0px;
-    border-right-width: 10px;
-    border-bottom-width: 0px;
-    border-left-width: 10px;
-    position: relative;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    background: linear-gradient(#dbf6edc4, #dbf6edc4),
-      url("https://cdn.pixabay.com/photo/2015/11/07/10/59/toronto-city-hall-1030708_1280.jpg")
-        top 50% left 50% / cover repeat;
-    transform: translateX(0px) translateY(0px) translateZ(0px);
-    min-width: 0;
-    border-radius: 0px;
-    padding: 80px 20px;
-    border-style: solid;
-    border-color: var(--token-SpHUTRhu8lYk);
-  }
-}
-.freeBox___4QZ5T {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: auto;
-  max-width: 1680px;
-  min-width: 0;
-  padding: 0px;
-}
-.h1__bvS6A {
-  position: relative;
-  width: 100%;
-  height: auto;
-  max-width: 800px;
-  text-align: center;
-  font-family: var(--token-Lueu1te1eGIx);
-  font-size: 65px;
-  font-weight: 600;
-  font-style: normal;
-  color: var(--token-8Wu9dKQH00EE);
-  text-transform: uppercase;
-  line-height: 1.1;
-  letter-spacing: normal;
-  white-space: pre-wrap;
-  user-select: text;
-  text-decoration-line: none;
-  text-overflow: clip;
-  box-shadow: none;
-  backdrop-filter: none;
-  min-width: 0;
-  -webkit-backdrop-filter: none;
-  margin: 0px;
-}
 .section {
   display: flex;
   position: relative;
@@ -372,7 +289,7 @@
   > img {
   margin-top: 20px;
 }
-.h1__fBwJi {
+.h1 {
   position: relative;
   width: 100%;
   height: auto;
@@ -400,7 +317,7 @@
   -webkit-backdrop-filter: none;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .h1__fBwJi {
+  .h1 {
     margin-top: calc(0px + 20px) !important;
   }
 }
