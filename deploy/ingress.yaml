@@ -9,10 +9,10 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - its-a-lisa.com
+    - softwarefoundry.org
     secretName: softwarefoundry-cert
   rules:
-  - host: its-a-lisa.com
+  - host: softwarefoundry.org
     http:
       paths:
       - path: /
