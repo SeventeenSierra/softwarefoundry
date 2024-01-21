@@ -68,8 +68,6 @@ export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
   pageLayout?: p.Flex<typeof PageLayout>;
   hero?: p.Flex<typeof Hero>;
-  h3?: p.Flex<"h3">;
-  h1?: p.Flex<"h1">;
   navigationBar?: p.Flex<typeof NavigationBar>;
 };
 
@@ -204,18 +202,15 @@ function PlasmicHomepage__RenderFunc(props: {
                   data-plasmic-override={overrides.hero}
                   className={classNames("__wab_instance", sty.hero)}
                   slot={
-                    <h1
-                      data-plasmic-name={"h1"}
-                      data-plasmic-override={overrides.h1}
+                    <div
                       className={classNames(
                         projectcss.all,
-                        projectcss.h1,
                         projectcss.__wab_text,
-                        sty.h1
+                        sty.text__z7Ppu
                       )}
                     >
                       {"Build With Confidence"}
-                    </h1>
+                    </div>
                   }
                   slot2={
                     <div
@@ -286,18 +281,15 @@ function PlasmicHomepage__RenderFunc(props: {
                   }
                   variations={"alpha"}
                 >
-                  <h3
-                    data-plasmic-name={"h3"}
-                    data-plasmic-override={overrides.h3}
+                  <div
                     className={classNames(
                       projectcss.all,
-                      projectcss.h3,
                       projectcss.__wab_text,
-                      sty.h3
+                      sty.text__arx6A
                     )}
                   >
                     {"Collaborate for a Safer Web"}
-                  </h3>
+                  </div>
                 </Hero>
               </div>
             </div>
@@ -309,11 +301,9 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "pageLayout", "hero", "h3", "h1", "navigationBar"],
-  pageLayout: ["pageLayout", "hero", "h3", "h1", "navigationBar"],
-  hero: ["hero", "h3", "h1"],
-  h3: ["h3"],
-  h1: ["h1"],
+  root: ["root", "pageLayout", "hero", "navigationBar"],
+  pageLayout: ["pageLayout", "hero", "navigationBar"],
+  hero: ["hero"],
   navigationBar: ["navigationBar"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -323,8 +313,6 @@ type NodeDefaultElementType = {
   root: "div";
   pageLayout: typeof PageLayout;
   hero: typeof Hero;
-  h3: "h3";
-  h1: "h1";
   navigationBar: typeof NavigationBar;
 };
 
@@ -390,8 +378,6 @@ export const PlasmicHomepage = Object.assign(
     // Helper components rendering sub-elements
     pageLayout: makeNodeComponent("pageLayout"),
     hero: makeNodeComponent("hero"),
-    h3: makeNodeComponent("h3"),
-    h1: makeNodeComponent("h1"),
     navigationBar: makeNodeComponent("navigationBar"),
 
     // Metadata about props expected for PlasmicHomepage
