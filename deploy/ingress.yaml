@@ -12,7 +12,7 @@ spec:
     - softwarefoundry.com
     secretName: softwarefoundry-cert
   rules:
-  - host: softwarefoundry.com
+  - host: softwarefoundry.org
     http:
       paths:
       - path: /
