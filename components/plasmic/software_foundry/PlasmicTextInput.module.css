@@ -1,0 +1,199 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: flex-start;
+  background: #ffffff;
+  position: sticky;
+  min-width: 0;
+  border-radius: 6px;
+  padding: 7px 11px;
+  border: 1px solid var(--token-GxKPEtUjqSVR);
+}
+.rootcolor_error {
+  background: none;
+  border-color: var(--token-Vr5OMaoLEfSl);
+}
+.rootcolor_success {
+  border-color: var(--token-kVJQbJaBfki0);
+}
+.rootcolor_warning {
+  border-color: var(--token-6Krz9A8gqsH_);
+}
+.rootcolor_info {
+  border-color: var(--token-AGoWkqVW9G7B);
+}
+.rootcolor_primary {
+  border-color: var(--token-zj2_Jqlr8Hl4);
+}
+.rootcolor_secondary {
+  border-color: var(--token-I2VAUD6ZBeUA);
+}
+.rootcolor_accentCool {
+  border-color: var(--token-qMtlLMMEglts);
+}
+.rootcolor_accentWarm {
+  border-color: var(--token-TrBzmekLCT-P);
+}
+.rootcolor_successLow {
+  border-color: var(--token-fTcs0wJ6aygy);
+}
+.rootcolor_successHigh {
+  border-color: var(--token-0_s93ZEJRkDT);
+}
+.rootcolor_warningLow {
+  border-color: var(--token-JJIcl54CAN5I);
+}
+.rootcolor_warningHigh {
+  border-color: var(--token-buRVndusWxix);
+}
+.rootcolor_errorHigh {
+  border-color: var(--token-nrLWlQKsaGhk);
+}
+.rootcolor_errorLow {
+  border-color: var(--token-pGzcnOqMSgG5);
+}
+.rootcolor_infoHigh {
+  border-color: var(--token-ECcJsrM_kLo9);
+}
+.rootcolor_infoLow {
+  border-color: var(--token-UevlhQIoxjCi);
+}
+.rootcolor_primaryHigh {
+  border-color: var(--token-8Wu9dKQH00EE);
+}
+.rootcolor_primaryLow {
+  border-color: var(--token-PY-5PTcJ4zHG);
+}
+.rootcolor_secondaryHigh {
+  border-color: var(--token-SpHUTRhu8lYk);
+}
+.rootcolor_secondaryLow {
+  border-color: var(--token-lN142VL2K3ot);
+}
+.rootcolor_accentWarmHigh {
+  border-color: var(--token-cUdGhiKcmtQE);
+}
+.rootcolor_accentWarmLow {
+  border-color: var(--token-5EjFmF_L-XrQ);
+}
+.rootcolor_accentCoolLow {
+  border-color: var(--token-Z8b9-lTaCgs4);
+}
+.rootcolor_accentCoolHigh {
+  border-color: var(--token-HcpNVsjVYBZh);
+}
+.root:hover {
+  border-color: #c8c7c1;
+}
+.root:focus-within {
+  box-shadow: 0px 0px 0px 3px var(--token-r82hHUQpRODZ);
+  outline: none;
+  border-radius: 6px;
+  border-color: var(--token-94cT647WpPwS);
+}
+.root___focusVisibleWithin {
+  box-shadow: 0px 0px 0px 3px var(--token--8Xv9cP458fD);
+  outline: none;
+  border-radius: 6px;
+  border-color: var(--token-94cT647WpPwS);
+}
+.startIconContainer {
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  left: auto;
+  top: auto;
+  margin-right: 8px;
+  display: none;
+}
+.startIconContainershowStartIcon {
+  display: flex;
+}
+.root .startIconContainer___focusVisibleWithin {
+  outline: none;
+}
+.slotTargetStartIconshowStartIcon {
+  color: #90908c;
+}
+.slotTargetStartIconcolor_error {
+  color: #ffffff;
+}
+.svg__haJLv {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.input {
+  width: 100%;
+  left: auto;
+  top: auto;
+  background: none;
+  color: #0091ff;
+  min-width: 0;
+  padding: 0px;
+  border-width: 1px;
+  border-style: none;
+}
+.inputisDisabled {
+  cursor: not-allowed;
+}
+.inputcolor_error {
+  color: #fb5a47;
+}
+.inputcolor_success {
+  color: #98d035;
+}
+.inputcolor_warning {
+  color: #ffbe2e;
+}
+.root:focus-within .input {
+  outline: none;
+}
+.root .input___focusVisibleWithin {
+  outline: none;
+}
+.root .input:focus {
+  outline: none;
+}
+.root:focus-within .input:focus {
+  outline: none;
+}
+.root .input::placeholder {
+  color: #706f6c;
+}
+.rootcolor_error .inputcolor_error::placeholder {
+  color: #c8c7c1;
+}
+.root:focus-within .input::placeholder {
+  outline: none;
+}
+.endIconContainer {
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  left: auto;
+  top: auto;
+  margin-left: 8px;
+  display: none;
+}
+.endIconContainershowEndIcon {
+  display: flex;
+}
+.slotTargetEndIconshowEndIcon {
+  color: #90908c;
+}
+.slotTargetEndIconcolor_error {
+  color: #ffffff;
+}
+.svg__qA91 {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}

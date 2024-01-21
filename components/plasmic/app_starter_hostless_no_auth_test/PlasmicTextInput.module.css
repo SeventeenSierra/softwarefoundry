@@ -1,0 +1,199 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: flex-start;
+  background: #ffffff;
+  position: sticky;
+  min-width: 0;
+  border-radius: 6px;
+  padding: 7px 11px;
+  border: 1px solid var(--token-djSUyPcqwQ9X);
+}
+.rootcolor_error {
+  background: none;
+  border-color: var(--token-FKyPAKjqQflI);
+}
+.rootcolor_success {
+  border-color: var(--token-2UWtn8I2jqml);
+}
+.rootcolor_warning {
+  border-color: var(--token-HtPnP6TE2vpj);
+}
+.rootcolor_info {
+  border-color: var(--token-kj5gaXHp_ml-);
+}
+.rootcolor_primary {
+  border-color: var(--token-04CwsVfhGB5P);
+}
+.rootcolor_secondary {
+  border-color: var(--token-EGA9SllWSpMQ);
+}
+.rootcolor_accentCool {
+  border-color: var(--token-TLPvzCW582RS);
+}
+.rootcolor_accentWarm {
+  border-color: var(--token-Ix8RwrhKpywT);
+}
+.rootcolor_successLow {
+  border-color: var(--token-F-A5llqpK1f8);
+}
+.rootcolor_successHigh {
+  border-color: var(--token-WakkEBPANyzy);
+}
+.rootcolor_warningLow {
+  border-color: var(--token-JbaHrDf_phfV);
+}
+.rootcolor_warningHigh {
+  border-color: var(--token-NiclNkpdpOj_);
+}
+.rootcolor_errorHigh {
+  border-color: var(--token-pbVZQsvC12fC);
+}
+.rootcolor_errorLow {
+  border-color: var(--token-iiDHm0VuQka4);
+}
+.rootcolor_infoHigh {
+  border-color: var(--token-ouVFiyr_T8wx);
+}
+.rootcolor_infoLow {
+  border-color: var(--token-D0zHSXX60_WQ);
+}
+.rootcolor_primaryHigh {
+  border-color: var(--token-vO-J8Idh5y3t);
+}
+.rootcolor_primaryLow {
+  border-color: var(--token-AMPL4c2lISka);
+}
+.rootcolor_secondaryHigh {
+  border-color: var(--token-8cj60xfxiE4k);
+}
+.rootcolor_secondaryLow {
+  border-color: var(--token-eTFhyQzcNn1m);
+}
+.rootcolor_accentWarmHigh {
+  border-color: var(--token-74-HOdhBA4i6);
+}
+.rootcolor_accentWarmLow {
+  border-color: var(--token-8QZhhgkKVCM_);
+}
+.rootcolor_accentCoolLow {
+  border-color: var(--token-ZV2MNaODdCA8);
+}
+.rootcolor_accentCoolHigh {
+  border-color: var(--token-y0EZkIJt8yHs);
+}
+.root:hover {
+  border-color: #c8c7c1;
+}
+.root:focus-within {
+  box-shadow: 0px 0px 0px 3px var(--token-Kq7t5lhznWrS);
+  outline: none;
+  border-radius: 6px;
+  border-color: var(--token-sSnWAGMI_ZfX);
+}
+.root___focusVisibleWithin {
+  box-shadow: 0px 0px 0px 3px var(--token-Vt6_Xm38C_6u);
+  outline: none;
+  border-radius: 6px;
+  border-color: var(--token-sSnWAGMI_ZfX);
+}
+.startIconContainer {
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  left: auto;
+  top: auto;
+  margin-right: 8px;
+  display: none;
+}
+.startIconContainershowStartIcon {
+  display: flex;
+}
+.root .startIconContainer___focusVisibleWithin {
+  outline: none;
+}
+.slotTargetStartIconshowStartIcon {
+  color: #90908c;
+}
+.slotTargetStartIconcolor_error {
+  color: #ffffff;
+}
+.svg__vl74M {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.input {
+  width: 100%;
+  left: auto;
+  top: auto;
+  background: none;
+  color: var(--token-SXaj40Hl0UeR);
+  min-width: 0;
+  padding: 0px;
+  border-width: 1px;
+  border-style: none;
+}
+.inputisDisabled {
+  cursor: not-allowed;
+}
+.inputcolor_error {
+  color: var(--token-GQVLjMBC1Pjd);
+}
+.inputcolor_success {
+  color: var(--token-Il4IVQ8TU0QK);
+}
+.inputcolor_warning {
+  color: var(--token-cRaE5fFjhgLK);
+}
+.root:focus-within .input {
+  outline: none;
+}
+.root .input___focusVisibleWithin {
+  outline: none;
+}
+.root .input:focus {
+  outline: none;
+}
+.root:focus-within .input:focus {
+  outline: none;
+}
+.root .input::placeholder {
+  color: #706f6c;
+}
+.rootcolor_error .inputcolor_error::placeholder {
+  color: #c8c7c1;
+}
+.root:focus-within .input::placeholder {
+  outline: none;
+}
+.endIconContainer {
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  left: auto;
+  top: auto;
+  margin-left: 8px;
+  display: none;
+}
+.endIconContainershowEndIcon {
+  display: flex;
+}
+.slotTargetEndIconshowEndIcon {
+  color: #90908c;
+}
+.slotTargetEndIconcolor_error {
+  color: #ffffff;
+}
+.svg__eIib5 {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}

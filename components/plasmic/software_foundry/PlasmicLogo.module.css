@@ -1,0 +1,21 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  justify-self: flex-start;
+  height: 100%;
+  min-height: 0;
+  padding: 0px;
+}
+.img {
+  object-fit: fill;
+  transform: none;
+  width: 230px;
+  height: 50px;
+  flex-shrink: 0;
+}
+.img > picture > img {
+  object-fit: fill;
+}

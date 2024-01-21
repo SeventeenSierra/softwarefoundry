@@ -1,0 +1,98 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  max-width: 100%;
+  padding: 8px 36px;
+}
+.navigationBar:global(.__wab_instance) {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 100%;
+  object-fit: cover;
+  background: none;
+  min-width: 0;
+  padding: 16px;
+}
+.link {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.img___6EqbM {
+  object-fit: cover;
+}
+.img___6EqbM > picture > img {
+  object-fit: cover;
+}
+.img__dKwl4 {
+  object-fit: cover;
+}
+.img__dKwl4 > picture > img {
+  object-fit: cover;
+}
+.freeBox__j3Zpk {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox__j3Zpk > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  min-width: 0;
+  margin-left: calc(0px - 24px);
+  width: calc(100% + 24px);
+}
+.freeBox__j3Zpk > :global(.__wab_flex-container) > *,
+.freeBox__j3Zpk > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__j3Zpk > :global(.__wab_flex-container) > picture > img,
+.freeBox__j3Zpk
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 24px;
+}
+.link__rzaZt {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  color: var(--token-zj2_Jqlr8Hl4);
+  font-size: var(--token-4yG6BAULA6Xw);
+  font-weight: 700;
+}
+.link__qsVsq {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  color: var(--token-zj2_Jqlr8Hl4);
+  font-size: var(--token-4yG6BAULA6Xw);
+}
+.link__mv0Ce {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  color: var(--token-zj2_Jqlr8Hl4);
+  font-size: var(--token-4yG6BAULA6Xw);
+}

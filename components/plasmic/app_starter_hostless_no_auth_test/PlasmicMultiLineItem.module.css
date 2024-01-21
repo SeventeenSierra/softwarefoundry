@@ -1,0 +1,33 @@
+.root {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  justify-self: flex-start;
+  padding: 8px;
+}
+.rootchecked {
+  opacity: 0.5;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+}
+.svgchecked {
+  opacity: 0.5;
+}
+.textarea {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}

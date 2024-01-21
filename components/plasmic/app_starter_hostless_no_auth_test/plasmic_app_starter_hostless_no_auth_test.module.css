@@ -1,0 +1,2181 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro%3Aital%2Cwght%400%2C400%3B0%2C600%3B0%2C700%3B0%2C900&family=Merriweather%3Aital%2Cwght%400%2C400%3B0%2C700%3B0%2C900&family=Inconsolata%3Aital%2Cwght%400%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C800%3B0%2C900&family=Inter%3Aital%2Cwght%400%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C800%3B0%2C900&display=swap");
+
+.plasmic_tokens {
+  --token--k3-L6ePYWGK: var(--token-E-PAyO5GDpiY);
+  --plasmic-token-component-any-black: var(--token--k3-L6ePYWGK);
+  --token-u7Ybpc35M2oV: #ffffff;
+  --plasmic-token-component-any-white: var(--token-u7Ybpc35M2oV);
+  --token-BqzJjEWofN6i: #ffffff00;
+  --plasmic-token-component-any-transparent: var(--token-BqzJjEWofN6i);
+  --token-gGxiesmFk0qX: var(--token-9EyOTC0DUFTL);
+  --plasmic-token-brand-primary-090: var(--token-gGxiesmFk0qX);
+  --token-9XmhDDxrc0z-: var(--token-SIv68YnlLshJ);
+  --plasmic-token-brand-primary-080: var(--token-9XmhDDxrc0z-);
+  --token-Sdmp--KhQpK4: var(--token-JRcUcIiXKT3b);
+  --plasmic-token-brand-primary-070: var(--token-Sdmp--KhQpK4);
+  --token-JhiJaLwQ2y-b: var(--token-Xo0gEi5NGXQv);
+  --plasmic-token-brand-primary-060: var(--token-JhiJaLwQ2y-b);
+  --token--4UaDr0Owp9Q: var(--token-pqpvijzcMnKD);
+  --plasmic-token-brand-primary-050: var(--token--4UaDr0Owp9Q);
+  --token-4dfTGQoDX-WV: var(--token-no7kUzrjsam4);
+  --plasmic-token-brand-primary-040: var(--token-4dfTGQoDX-WV);
+  --token-Oi8FfsEcDwsM: var(--token-B0bocODLGmAW);
+  --plasmic-token-brand-secondary-010: var(--token-Oi8FfsEcDwsM);
+  --token-gK8_LKDnDkBk: var(--token-c3rdRL-SQFN1);
+  --plasmic-token-brand-secondary-020: var(--token-gK8_LKDnDkBk);
+  --token-AvuyxfReeHuV: var(--token-pI7HFIBKWU5Z);
+  --plasmic-token-brand-secondary-030: var(--token-AvuyxfReeHuV);
+  --token-10MGD2nSr2H-: var(--token-Ej7vG0N61uuz);
+  --plasmic-token-brand-secondary-040: var(--token-10MGD2nSr2H-);
+  --token-LfYPv9SilGL6: var(--token-EV-xYWZOPd4P);
+  --plasmic-token-brand-secondary-050: var(--token-LfYPv9SilGL6);
+  --token-_nRJerRhjMrX: var(--token-GyRMQzxhxxzR);
+  --plasmic-token-brand-secondary-060: var(--token-_nRJerRhjMrX);
+  --token-78NqjMQtUvqm: var(--token-jSaiBL0PzrOa);
+  --plasmic-token-brand-secondary-070: var(--token-78NqjMQtUvqm);
+  --token-frW2Pqr5CDMk: var(--token-1dUjtVSNVF2W);
+  --plasmic-token-brand-secondary-080: var(--token-frW2Pqr5CDMk);
+  --token-oUDTrL9mniGp: var(--token-WQBwhcMJG5tN);
+  --plasmic-token-brand-secondary-090: var(--token-oUDTrL9mniGp);
+  --token-6F9cmr7bsWIQ: var(--token-uWzbwjQPJ9Hy);
+  --plasmic-token-brand-primary-030: var(--token-6F9cmr7bsWIQ);
+  --token--LcDMDOdH-AU: var(--token-KyxuCCwwGRT-);
+  --plasmic-token-brand-primary-020: var(--token--LcDMDOdH-AU);
+  --token-4ls5F3qKZm2e: var(--token-PMSzevh5QR7k);
+  --plasmic-token-brand-primary-010: var(--token-4ls5F3qKZm2e);
+  --token-VyPLbaxslU_5: var(--token-RsG_s-IePnJb);
+  --plasmic-token-component-font-primary: var(--token-VyPLbaxslU_5);
+  --token-UOtE_nscgye_: var(--token-djSUyPcqwQ9X);
+  --plasmic-token-component-font-secondary: var(--token-UOtE_nscgye_);
+  --token-4EKZvb5ZxATo: var(--token-e6EFCvOp4CGp);
+  --plasmic-token-component-font-tertiary: var(--token-4EKZvb5ZxATo);
+  --token-SCWJXW8_czE2: #ffffff;
+  --plasmic-token-component-font-inverse: var(--token-SCWJXW8_czE2);
+  --token-rbt9vLqJZtHq: var(--token-h_xYZc1T9MG9);
+  --plasmic-token-component-font-error: var(--token-rbt9vLqJZtHq);
+  --token-OT_bNXYduutK: var(--token-mMAdSMXPq1r3);
+  --plasmic-token-component-font-success: var(--token-OT_bNXYduutK);
+  --token-ZGGc34FzRaZm: var(--token-RIpQ7FvZN8D_);
+  --plasmic-token-component-font-warning: var(--token-ZGGc34FzRaZm);
+  --token-nwlfwXxA8bZh: var(--token-K2_WqrvTdRrq);
+  --plasmic-token-component-font-info: var(--token-nwlfwXxA8bZh);
+  --token--ESmjoUZorWT: var(--token-KqGqd9wMike6);
+  --plasmic-token-component-font-interactive: var(--token--ESmjoUZorWT);
+  --token-S8MCRk583ClF: var(--token-vWRtBzRhbNAz);
+  --plasmic-token-component-font-focus: var(--token-S8MCRk583ClF);
+  --token-PpX-Qbz6o3Re: var(--token-vWRtBzRhbNAz);
+  --plasmic-token-component-font-active: var(--token-PpX-Qbz6o3Re);
+  --token-9i1zrsYmLp6b: var(--token-irrdCecewMtl);
+  --plasmic-token-component-border-tertiary: var(--token-9i1zrsYmLp6b);
+  --token-f5GrwNg4AvKO: var(--token-AaGsx2758039);
+  --plasmic-token-component-border-secondary: var(--token-f5GrwNg4AvKO);
+  --token-WUgjUk99A6qG: var(--token-SVnuA9G9qx-D);
+  --plasmic-token-component-border-initial: var(--token-WUgjUk99A6qG);
+  --token-L5tp8dplKxrS: var(--token-2yp0ZAABqcJm);
+  --plasmic-token-component-disabled-border: var(--token-L5tp8dplKxrS);
+  --token-gvvFEXZ7Vb6j: var(--token-MEI0Xx4Dhqfw);
+  --plasmic-token-component-border-error: var(--token-gvvFEXZ7Vb6j);
+  --token-E0kmUBiS33GG: var(--token-vWRtBzRhbNAz);
+  --plasmic-token-component-border-focus: var(--token-E0kmUBiS33GG);
+  --token--2b6rz4Rxv9i: var(--token-vWRtBzRhbNAz);
+  --plasmic-token-component-border-pressed: var(--token--2b6rz4Rxv9i);
+  --token-CItVXR69hIe_: #ffffff;
+  --plasmic-token-component-background-initial: var(--token-CItVXR69hIe_);
+  --token-fbW_w9akCccI: var(--token-irrdCecewMtl);
+  --plasmic-token-component-background-secondary: var(--token-fbW_w9akCccI);
+  --token-aiqrcTNGd1q_: var(--token-SVnuA9G9qx-D);
+  --plasmic-token-component-background-tertiary: var(--token-aiqrcTNGd1q_);
+  --token-BL__EM-o0xnq: var(--token-tJfX-Pl60yGx);
+  --plasmic-token-component-background-error: var(--token-BL__EM-o0xnq);
+  --token-IE3rMyRatFD4: var(--token-FSphv2jlZ0iQ);
+  --plasmic-token-component-background-warning: var(--token-IE3rMyRatFD4);
+  --token-shCwAdsi_AIM: var(--token-Bl9ptSrM6lEB);
+  --plasmic-token-component-background-info: var(--token-shCwAdsi_AIM);
+  --token-rcams-RL3cvQ: var(--token-KqGqd9wMike6);
+  --plasmic-token-component-disabled-background: var(--token-rcams-RL3cvQ);
+  --token-G4uznyERCuV_: var(--token-irrdCecewMtl);
+  --plasmic-token-component-background-quaternary: var(--token-G4uznyERCuV_);
+  --token-KmBBSr6nA7Qo: #1b1b1b40;
+  --plasmic-token-component-shadow-initial: var(--token-KmBBSr6nA7Qo);
+  --token-bbtMpfGI20bH: #1b1b1b26;
+  --plasmic-token-component-shadow-secondary: var(--token-bbtMpfGI20bH);
+  --token-aNGQ6I6okEVf: #1b1b1b0d;
+  --plasmic-token-component-shadow-tertiary: var(--token-aNGQ6I6okEVf);
+  --token-NH2fviPamY5b: #0000001a;
+  --plasmic-token-component-overlay-010: var(--token-NH2fviPamY5b);
+  --token-pk8aZOi80c5h: #00000033;
+  --plasmic-token-component-overlay-020: var(--token-pk8aZOi80c5h);
+  --token-5KV3uMCpIvJq: #0000004d;
+  --plasmic-token-component-overlay-030: var(--token-5KV3uMCpIvJq);
+  --token-TWxGgVXggOcL: #00000066;
+  --plasmic-token-component-overlay-040: var(--token-TWxGgVXggOcL);
+  --token-dl8orAKb9PVw: #00000080;
+  --plasmic-token-component-overlay-050: var(--token-dl8orAKb9PVw);
+  --token-yVwBmZ75wiH_: #00000099;
+  --plasmic-token-component-overlay-060: var(--token-yVwBmZ75wiH_);
+  --token-a3BiUERUC1b4: #000000b3;
+  --plasmic-token-component-overlay-070: var(--token-a3BiUERUC1b4);
+  --token-06t2lct1twfL: #000000cc;
+  --plasmic-token-component-overlay-080: var(--token-06t2lct1twfL);
+  --token-NDbytY9ufQyp: #000000e6;
+  --plasmic-token-component-overlay-090: var(--token-NDbytY9ufQyp);
+  --token-CXqAKvpUCzOo: #f8eff1;
+  --plasmic-token-all-red-cool-natural-005: var(--token-CXqAKvpUCzOo);
+  --token-5l5X1HalqBMi: #f3e1e4;
+  --plasmic-token-all-red-cool-natural-010: var(--token-5l5X1HalqBMi);
+  --token-wmm3gO5YKRqv: #ecbec6;
+  --plasmic-token-all-red-cool-natural-020: var(--token-wmm3gO5YKRqv);
+  --token-xLxMEJ3IAUa5: #e09aa6;
+  --plasmic-token-all-red-cool-natural-030: var(--token-xLxMEJ3IAUa5);
+  --token-mv9ZPFYQm_o9: #e16b80;
+  --plasmic-token-all-red-cool-natural-040: var(--token-mv9ZPFYQm_o9);
+  --token-FmJnyDaCkIUV: #cd425b;
+  --plasmic-token-all-red-cool-natural-050: var(--token-FmJnyDaCkIUV);
+  --token-QpjgwL2BZzKu: #9e394b;
+  --plasmic-token-all-red-cool-natural-060: var(--token-QpjgwL2BZzKu);
+  --token-cBA7ok-f3rEw: #68363f;
+  --plasmic-token-all-red-cool-natural-070: var(--token-cBA7ok-f3rEw);
+  --token-E8dWsDVItHdC: #40282c;
+  --plasmic-token-all-red-cool-natural-080: var(--token-E8dWsDVItHdC);
+  --token-BdVpvVGLwRSM: #1e1517;
+  --plasmic-token-all-red-cool-natural-090: var(--token-BdVpvVGLwRSM);
+  --token-mB2zrXw9PXeC: #fff2f5;
+  --plasmic-token-all-red-cool-vivid-005: var(--token-mB2zrXw9PXeC);
+  --token-8jEwtTn8NoU8: #f8dfe2;
+  --plasmic-token-all-red-cool-vivid-010: var(--token-8jEwtTn8NoU8);
+  --token-AxkCErx6LVfU: #f8b9c5;
+  --plasmic-token-all-red-cool-vivid-020: var(--token-AxkCErx6LVfU);
+  --token-2j1SE4vj0ppm: #fd8ba0;
+  --plasmic-token-all-red-cool-vivid-030: var(--token-2j1SE4vj0ppm);
+  --token-V5c5q-F0ZggX: #f45d79;
+  --plasmic-token-all-red-cool-vivid-040: var(--token-V5c5q-F0ZggX);
+  --token-hug6g1sN18Qg: #e41d3d;
+  --plasmic-token-all-red-cool-vivid-050: var(--token-hug6g1sN18Qg);
+  --token-1rf3kBiFfscs: #b21d38;
+  --plasmic-token-all-red-cool-vivid-060: var(--token-1rf3kBiFfscs);
+  --token-sQuB-mkDxuRk: #822133;
+  --plasmic-token-all-red-cool-vivid-070: var(--token-sQuB-mkDxuRk);
+  --token-9YPXBmdDOfP-: #4f1c24;
+  --plasmic-token-all-red-cool-vivid-080: var(--token-9YPXBmdDOfP-);
+  --token-8HhIKqvKxNV3: #f9eeee;
+  --plasmic-token-all-red-natural-natural-005: var(--token-8HhIKqvKxNV3);
+  --token-5G91UnpWRVkR: #f8e1de;
+  --plasmic-token-all-red-natural-natural-010: var(--token-5G91UnpWRVkR);
+  --token-Yws49_ecFGft: #f7bbb1;
+  --plasmic-token-all-red-natural-natural-020: var(--token-Yws49_ecFGft);
+  --token-m67e93Y-oY9s: #f2938c;
+  --plasmic-token-all-red-natural-natural-030: var(--token-m67e93Y-oY9s);
+  --token-0g-rc8wVuU4M: #e9695f;
+  --plasmic-token-all-red-natural-natural-040: var(--token-0g-rc8wVuU4M);
+  --token-ur9whqZ2pq-G: #d83933;
+  --plasmic-token-all-red-natural-natural-050: var(--token-ur9whqZ2pq-G);
+  --token-EQVVZ1S4kzxN: #a23737;
+  --plasmic-token-all-red-natural-natural-060: var(--token-EQVVZ1S4kzxN);
+  --token-PZ8Ifb1ZVOkF: #6f3331;
+  --plasmic-token-all-red-natural-natural-070: var(--token-PZ8Ifb1ZVOkF);
+  --token-DlMWU6Nm_C_L: #3e2927;
+  --plasmic-token-all-red-natural-natural-080: var(--token-DlMWU6Nm_C_L);
+  --token-pwqfNeHa_4zt: #1b1616;
+  --plasmic-token-all-red-natural-natural-090: var(--token-pwqfNeHa_4zt);
+  --token-hvGdCICQ7vOi: #fff3f2;
+  --plasmic-token-all-red-natural-vivid-005: var(--token-hvGdCICQ7vOi);
+  --token-nxXy5xLv26Xa: #fde0db;
+  --plasmic-token-all-red-natural-vivid-010: var(--token-nxXy5xLv26Xa);
+  --token-68xLByazFA6h: #fdb8ae;
+  --plasmic-token-all-red-natural-vivid-020: var(--token-68xLByazFA6h);
+  --token-XcEjC-SaNmlM: #ff8d7b;
+  --plasmic-token-all-red-natural-vivid-030: var(--token-XcEjC-SaNmlM);
+  --token-UVgjMCg_3HfG: #fb5a47;
+  --plasmic-token-all-red-natural-vivid-040: var(--token-UVgjMCg_3HfG);
+  --token-NEnUC_kxCOye: #e52207;
+  --plasmic-token-all-red-natural-vivid-050: var(--token-NEnUC_kxCOye);
+  --token-6GNBqww6bOSG: #b50909;
+  --plasmic-token-all-red-natural-vivid-060: var(--token-6GNBqww6bOSG);
+  --token-f2L7qeWzYtDw: #8b0a03;
+  --plasmic-token-all-red-natural-vivid-070: var(--token-f2L7qeWzYtDw);
+  --token-hyeVzzYhEiyg: #5c1111;
+  --plasmic-token-all-red-natural-vivid-080: var(--token-hyeVzzYhEiyg);
+  --token-1SPnemj8JcR4: #f6efea;
+  --plasmic-token-all-red-warm-natural-005: var(--token-1SPnemj8JcR4);
+  --token-ogUcDUqrILr2: #f4e3db;
+  --plasmic-token-all-red-warm-natural-010: var(--token-ogUcDUqrILr2);
+  --token-lVV3UI_2FbkI: #ecc0a7;
+  --plasmic-token-all-red-warm-natural-020: var(--token-lVV3UI_2FbkI);
+  --token-jPcmWlK4maR_: #dca081;
+  --plasmic-token-all-red-warm-natural-030: var(--token-jPcmWlK4maR_);
+  --token-8SUCq1N4mW7q: #d27a56;
+  --plasmic-token-all-red-warm-natural-040: var(--token-8SUCq1N4mW7q);
+  --token-fhM1HoKtwshg: #c3512c;
+  --plasmic-token-all-red-warm-natural-050: var(--token-fhM1HoKtwshg);
+  --token-YFjwkjcYHLbt: #805039;
+  --plasmic-token-all-red-warm-natural-060: var(--token-YFjwkjcYHLbt);
+  --token-muueRoLYxaYG: #524236;
+  --plasmic-token-all-red-warm-natural-070: var(--token-muueRoLYxaYG);
+  --token-VYKKx96z1oJl: #332d29;
+  --plasmic-token-all-red-warm-natural-080: var(--token-VYKKx96z1oJl);
+  --token-pvPYPtgyfHic: #1f1c18;
+  --plasmic-token-all-red-warm-natural-090: var(--token-pvPYPtgyfHic);
+  --token-OIV9paO-6jhv: #fff5ee;
+  --plasmic-token-all-red-warm-vivid-005: var(--token-OIV9paO-6jhv);
+  --token-O3uBk4bHfA2f: #fce1d4;
+  --plasmic-token-all-red-warm-vivid-010: var(--token-O3uBk4bHfA2f);
+  --token-EaOr8FlnDOW6: #f6bd9c;
+  --plasmic-token-all-red-warm-vivid-020: var(--token-EaOr8FlnDOW6);
+  --token-4-eqMKQ4His2: #f39268;
+  --plasmic-token-all-red-warm-vivid-030: var(--token-4-eqMKQ4His2);
+  --token-MXUyGj5nK3NU: #ef5e25;
+  --plasmic-token-all-red-warm-vivid-040: var(--token-MXUyGj5nK3NU);
+  --token-iZhJTioS8Ewp: #d54309;
+  --plasmic-token-all-red-warm-vivid-050: var(--token-iZhJTioS8Ewp);
+  --token-TdqoS_QUMvEW: #9c3d10;
+  --plasmic-token-all-red-warm-vivid-060: var(--token-TdqoS_QUMvEW);
+  --token-nUtHoqKkT4z3: #63340f;
+  --plasmic-token-all-red-warm-vivid-070: var(--token-nUtHoqKkT4z3);
+  --token-MlCOSwo3KxJ3: #3e2a1e;
+  --plasmic-token-all-red-warm-vivid-080: var(--token-MlCOSwo3KxJ3);
+  --token-0ZOb5NRTZOx8: #faeee5;
+  --plasmic-token-all-orange-warm-natural-005: var(--token-0ZOb5NRTZOx8);
+  --token-EhSljBLU02yB: #fbe0d0;
+  --plasmic-token-all-orange-warm-natural-010: var(--token-EhSljBLU02yB);
+  --token--88lkA8o3-ei: #f7bca2;
+  --plasmic-token-all-orange-warm-natural-020: var(--token--88lkA8o3-ei);
+  --token-kEGUFMXav8Vi: #f3966d;
+  --plasmic-token-all-orange-warm-natural-030: var(--token-kEGUFMXav8Vi);
+  --token-kN2_Fc44nNRZ: #e17141;
+  --plasmic-token-all-orange-warm-natural-040: var(--token-kN2_Fc44nNRZ);
+  --token-us7SdcjmMYbv: #bd5727;
+  --plasmic-token-all-orange-warm-natural-050: var(--token-us7SdcjmMYbv);
+  --token-crtRptg4jFw6: #914734;
+  --plasmic-token-all-orange-warm-natural-060: var(--token-crtRptg4jFw6);
+  --token-lif7IYwi-rZs: #633a32;
+  --plasmic-token-all-orange-warm-natural-070: var(--token-lif7IYwi-rZs);
+  --token-kxqqupFvvnmi: #3d2925;
+  --plasmic-token-all-orange-warm-natural-080: var(--token-kxqqupFvvnmi);
+  --token-rokCQR4OI8Hf: #1c1615;
+  --plasmic-token-all-orange-warm-natural-090: var(--token-rokCQR4OI8Hf);
+  --token-ChA6_KQMb9ZY: #fff3ea;
+  --plasmic-token-all-orange-warm-vivid-005: var(--token-ChA6_KQMb9ZY);
+  --token-GqiWwHqd0FIL: #ffe2d1;
+  --plasmic-token-all-orange-warm-vivid-010: var(--token-GqiWwHqd0FIL);
+  --token-NIZF_l44sd16: #fbbaa7;
+  --plasmic-token-all-orange-warm-vivid-020: var(--token-NIZF_l44sd16);
+  --token-BeNp8pyE4eXc: #fc906d;
+  --plasmic-token-all-orange-warm-vivid-030: var(--token-BeNp8pyE4eXc);
+  --token-FtiAGv7Z9SJN: #ff580a;
+  --plasmic-token-all-orange-warm-vivid-040: var(--token-FtiAGv7Z9SJN);
+  --token-ZSKuLQypvsOB: #cf4900;
+  --plasmic-token-all-orange-warm-vivid-050: var(--token-ZSKuLQypvsOB);
+  --token-W-Eecpv4UUNp: #a72f10;
+  --plasmic-token-all-orange-warm-vivid-060: var(--token-W-Eecpv4UUNp);
+  --token-DOw3nQm7rlDw: #782312;
+  --plasmic-token-all-orange-warm-vivid-070: var(--token-DOw3nQm7rlDw);
+  --token-Zg3m2d7kroeJ: #3d231d;
+  --plasmic-token-all-orange-warm-vivid-080: var(--token-Zg3m2d7kroeJ);
+  --token-DYeo2yRlFU6-: #f6efe9;
+  --plasmic-token-all-orange-natural-natural-005: var(--token-DYeo2yRlFU6-);
+  --token-Ycjm50vNqc8Q: #f2e4d4;
+  --plasmic-token-all-orange-natural-natural-010: var(--token-Ycjm50vNqc8Q);
+  --token-Oj5xR8JWKk8K: #f3bf90;
+  --plasmic-token-all-orange-natural-natural-020: var(--token-Oj5xR8JWKk8K);
+  --token-7pbi8gVVOZKO: #f09860;
+  --plasmic-token-all-orange-natural-natural-030: var(--token-7pbi8gVVOZKO);
+  --token-mitmmCA-KgDH: #dd7533;
+  --plasmic-token-all-orange-natural-natural-040: var(--token-mitmmCA-KgDH);
+  --token--jVE1nKn6uZJ: #a86437;
+  --plasmic-token-all-orange-natural-natural-050: var(--token--jVE1nKn6uZJ);
+  --token-T8tvoLLJQ8oM: #775540;
+  --plasmic-token-all-orange-natural-natural-060: var(--token-T8tvoLLJQ8oM);
+  --token-1HB8gYUgDGiG: #524236;
+  --plasmic-token-all-orange-natural-natural-070: var(--token-1HB8gYUgDGiG);
+  --token-4rDIAoINWYjJ: #332d27;
+  --plasmic-token-all-orange-natural-natural-080: var(--token-4rDIAoINWYjJ);
+  --token-2LoxlTOWEAK9: #1b1614;
+  --plasmic-token-all-orange-natural-natural-090: var(--token-2LoxlTOWEAK9);
+  --token-Rc1TvgDupzga: #fef2e4;
+  --plasmic-token-all-orange-natural-vivid-005: var(--token-Rc1TvgDupzga);
+  --token-bMPlUA-QHzkK: #fce2c5;
+  --plasmic-token-all-orange-natural-vivid-010: var(--token-bMPlUA-QHzkK);
+  --token-OBkFDSiPC9pD: #ffbc78;
+  --plasmic-token-all-orange-natural-vivid-020: var(--token-OBkFDSiPC9pD);
+  --token-Y9KuxZ6xCxWE: #fa9441;
+  --plasmic-token-all-orange-natural-vivid-030: var(--token-Y9KuxZ6xCxWE);
+  --token-4gjc40sPWmQL: #e66f0e;
+  --plasmic-token-all-orange-natural-vivid-040: var(--token-4gjc40sPWmQL);
+  --token-c_8fqym0VHwA: #c05600;
+  --plasmic-token-all-orange-natural-vivid-050: var(--token-c_8fqym0VHwA);
+  --token-c_moq40eC_uF: #8c471c;
+  --plasmic-token-all-orange-natural-vivid-060: var(--token-c_moq40eC_uF);
+  --token-tgAGxJqdzgSV: #5f3617;
+  --plasmic-token-all-orange-natural-vivid-070: var(--token-tgAGxJqdzgSV);
+  --token-rhrHIbEbcBju: #352313;
+  --plasmic-token-all-orange-natural-vivid-080: var(--token-rhrHIbEbcBju);
+  --token-cBTvrvv_RV9D: #f5f0e6;
+  --plasmic-token-all-gold-natural-natural-005: var(--token-cBTvrvv_RV9D);
+  --token-0q_3-Ya1Ib8B: #f1e5cd;
+  --plasmic-token-all-gold-natural-natural-010: var(--token-0q_3-Ya1Ib8B);
+  --token-osVdoYWQn-p7: #dec69a;
+  --plasmic-token-all-gold-natural-natural-020: var(--token-osVdoYWQn-p7);
+  --token-ghyBwsZnfQVZ: #c7a97b;
+  --plasmic-token-all-gold-natural-natural-030: var(--token-ghyBwsZnfQVZ);
+  --token-z88xG_sDxYjE: #ad8b65;
+  --plasmic-token-all-gold-natural-natural-040: var(--token-z88xG_sDxYjE);
+  --token-2kOY7aM9fiLH: #8e704f;
+  --plasmic-token-all-gold-natural-natural-050: var(--token-2kOY7aM9fiLH);
+  --token-pndXJeC0mTSn: #6b5947;
+  --plasmic-token-all-gold-natural-natural-060: var(--token-pndXJeC0mTSn);
+  --token-0dEND6FNjde2: #4d4438;
+  --plasmic-token-all-gold-natural-natural-070: var(--token-0dEND6FNjde2);
+  --token-9rvznYFLyEDz: #322d26;
+  --plasmic-token-all-gold-natural-natural-080: var(--token-9rvznYFLyEDz);
+  --token-tDbpnpuVjeAw: #191714;
+  --plasmic-token-all-gold-natural-natural-090: var(--token-tDbpnpuVjeAw);
+  --token-Mirxb6TBLGN-: #fef0c8;
+  --plasmic-token-all-gold-natural-vivid-005: var(--token-Mirxb6TBLGN-);
+  --token-PyWSFlsqXhZx: #ffe396;
+  --plasmic-token-all-gold-natural-vivid-010: var(--token-PyWSFlsqXhZx);
+  --token-YWbHNSCRbsZb: #ffbe2e;
+  --plasmic-token-all-gold-natural-vivid-020: var(--token-YWbHNSCRbsZb);
+  --token-0ByvCgszFC7V: #e5a000;
+  --plasmic-token-all-gold-natural-vivid-030: var(--token-0ByvCgszFC7V);
+  --token-Kjsjk-rMgRvD: #c2850c;
+  --plasmic-token-all-gold-natural-vivid-040: var(--token-Kjsjk-rMgRvD);
+  --token-g7MxhrHSC-GH: #936f38;
+  --plasmic-token-all-gold-natural-vivid-050: var(--token-g7MxhrHSC-GH);
+  --token-VjKvTkagPXWt: #7a591a;
+  --plasmic-token-all-gold-natural-vivid-060: var(--token-VjKvTkagPXWt);
+  --token-sjFUZLErpqRY: #5c410a;
+  --plasmic-token-all-gold-natural-vivid-070: var(--token-sjFUZLErpqRY);
+  --token-CPa0VoOcv_mU: #faf3d1;
+  --plasmic-token-all-yellow-natural-natural-005: var(--token-CPa0VoOcv_mU);
+  --token-wc1YLARbhjtF: #f5e6af;
+  --plasmic-token-all-yellow-natural-natural-010: var(--token-wc1YLARbhjtF);
+  --token-oCnKlhtZ44G3: #e6c74c;
+  --plasmic-token-all-yellow-natural-natural-020: var(--token-oCnKlhtZ44G3);
+  --token-Ag97Yu3I2XGx: #c9ab48;
+  --plasmic-token-all-yellow-natural-natural-030: var(--token-Ag97Yu3I2XGx);
+  --token-r6CuKutQhffi: #a88f48;
+  --plasmic-token-all-yellow-natural-natural-040: var(--token-r6CuKutQhffi);
+  --token-Yk3M789LrIpl: #8a7237;
+  --plasmic-token-all-yellow-natural-natural-050: var(--token-Yk3M789LrIpl);
+  --token-C5RzOTEmQkzt: #6b5a39;
+  --plasmic-token-all-yellow-natural-natural-060: var(--token-C5RzOTEmQkzt);
+  --token-KGY6bkwNYuJM: #504332;
+  --plasmic-token-all-yellow-natural-natural-070: var(--token-KGY6bkwNYuJM);
+  --token-Jt7SngNzI1Ke: #332d27;
+  --plasmic-token-all-yellow-natural-natural-080: var(--token-Jt7SngNzI1Ke);
+  --token-0B-EyjUVckFn: #1a1614;
+  --plasmic-token-all-yellow-natural-natural-090: var(--token-0B-EyjUVckFn);
+  --token-p0tQ_8x_L95c: #fff5c2;
+  --plasmic-token-all-yellow-natural-vivid-005: var(--token-p0tQ_8x_L95c);
+  --token-vHqoO2QIQC_s: #3b2b15;
+  --plasmic-token-all-gold-natural-vivid-080: var(--token-vHqoO2QIQC_s);
+  --token-YHa333YPcnPf: #fee685;
+  --plasmic-token-all-yellow-natural-vivid-010: var(--token-YHa333YPcnPf);
+  --token-jI7FpFvuamFc: #face00;
+  --plasmic-token-all-yellow-natural-vivid-020: var(--token-jI7FpFvuamFc);
+  --token-mODvIyi3XVLQ: #ddaa01;
+  --plasmic-token-all-yellow-natural-vivid-030: var(--token-mODvIyi3XVLQ);
+  --token-99a8hTO_btW-: #b38c00;
+  --plasmic-token-all-yellow-natural-vivid-040: var(--token-99a8hTO_btW-);
+  --token-E5aebICh0Hdl: #947100;
+  --plasmic-token-all-yellow-natural-vivid-050: var(--token-E5aebICh0Hdl);
+  --token-1p__d49b0j51: #776017;
+  --plasmic-token-all-yellow-natural-vivid-060: var(--token-1p__d49b0j51);
+  --token-Cld0fSWWi7pM: #5c4809;
+  --plasmic-token-all-yellow-natural-vivid-070: var(--token-Cld0fSWWi7pM);
+  --token-dxj3ZmwvVq4z: #422d19;
+  --plasmic-token-all-yellow-natural-vivid-080: var(--token-dxj3ZmwvVq4z);
+  --token-_GHkSlsRgWVE: #f1f4d7;
+  --plasmic-token-all-green-warm-natural-005: var(--token-_GHkSlsRgWVE);
+  --token-YrQeZKeGn-KY: #e7eab7;
+  --plasmic-token-all-green-warm-natural-010: var(--token-YrQeZKeGn-KY);
+  --token-hX43g5OQ3JHI: #cbd17a;
+  --plasmic-token-all-green-warm-natural-020: var(--token-hX43g5OQ3JHI);
+  --token-glbAidskZsOr: #a6b557;
+  --plasmic-token-all-green-warm-natural-030: var(--token-glbAidskZsOr);
+  --token-3cJhFSx8kqQO: #8a984b;
+  --plasmic-token-all-green-warm-natural-040: var(--token-3cJhFSx8kqQO);
+  --token-ddG2lpUdF_ie: #6f7a41;
+  --plasmic-token-all-green-warm-natural-050: var(--token-ddG2lpUdF_ie);
+  --token-rzXSvi7-V-WH: #5a5f38;
+  --plasmic-token-all-green-warm-natural-060: var(--token-rzXSvi7-V-WH);
+  --token-ccggXzMl2C7X: #45472f;
+  --plasmic-token-all-green-warm-natural-070: var(--token-ccggXzMl2C7X);
+  --token--vP3efInF-N3: #2d2f21;
+  --plasmic-token-all-green-warm-natural-080: var(--token--vP3efInF-N3);
+  --token-trvd5tsALA7C: #171712;
+  --plasmic-token-all-green-warm-natural-090: var(--token-trvd5tsALA7C);
+  --token-5t-UaLNAf78L: #f5fbc1;
+  --plasmic-token-all-green-warm-vivid-005: var(--token-5t-UaLNAf78L);
+  --token-bCxzbonvQ9Ac: #e7f434;
+  --plasmic-token-all-green-warm-vivid-010: var(--token-bCxzbonvQ9Ac);
+  --token-LxTk7Y8J1Zm6: #c5d30a;
+  --plasmic-token-all-green-warm-vivid-020: var(--token-LxTk7Y8J1Zm6);
+  --token-ktFJqMVbkALE: #a3b72c;
+  --plasmic-token-all-green-warm-vivid-030: var(--token-ktFJqMVbkALE);
+  --token-jL7g5gU86wLQ: #7e9c1d;
+  --plasmic-token-all-green-warm-vivid-040: var(--token-jL7g5gU86wLQ);
+  --token-EQ7r5jz2nDkK: #6a7d00;
+  --plasmic-token-all-green-warm-vivid-050: var(--token-EQ7r5jz2nDkK);
+  --token-FhNagDHdwgYQ: #5a6613;
+  --plasmic-token-all-green-warm-vivid-060: var(--token-FhNagDHdwgYQ);
+  --token-0hhEPcS4LmUU: var(--token-uzrlMZLxai3k);
+  --plasmic-token-all-green-warm-vivid-070: var(--token-0hhEPcS4LmUU);
+  --token-0VawKOcwVzEw: #38380b;
+  --plasmic-token-all-green-warm-vivid-080: var(--token-0VawKOcwVzEw);
+  --token-sUlInukWvIMs: #eaf4dd;
+  --plasmic-token-all-green-natural-natural-005: var(--token-sUlInukWvIMs);
+  --token-p7PjsRdEAX4D: #dfeacd;
+  --plasmic-token-all-green-natural-natural-010: var(--token-p7PjsRdEAX4D);
+  --token-rgCpI6DDv2M_: #b8d293;
+  --plasmic-token-all-green-natural-natural-020: var(--token-rgCpI6DDv2M_);
+  --token-EHUK3igyWIyA: #9bb672;
+  --plasmic-token-all-green-natural-natural-030: var(--token-EHUK3igyWIyA);
+  --token-Y1MYDQg3hFFE: #7d9b4e;
+  --plasmic-token-all-green-natural-natural-040: var(--token-Y1MYDQg3hFFE);
+  --token-YVyW1T2_XvU2: #607f35;
+  --plasmic-token-all-green-natural-natural-050: var(--token-YVyW1T2_XvU2);
+  --token-nMYrlzS_P41g: #4c6424;
+  --plasmic-token-all-green-natural-natural-060: var(--token-nMYrlzS_P41g);
+  --token-U3GFKK_JyWRB: #3c4a29;
+  --plasmic-token-all-green-natural-natural-070: var(--token-U3GFKK_JyWRB);
+  --token-GrwRFt-HLoy-: #293021;
+  --plasmic-token-all-green-natural-natural-080: var(--token-GrwRFt-HLoy-);
+  --token-29upROmz5MCz: #161814;
+  --plasmic-token-all-green-natural-natural-090: var(--token-29upROmz5MCz);
+  --token-m0SYuJvaEY2m: #ddf9c7;
+  --plasmic-token-all-green-natural-vivid-005: var(--token-m0SYuJvaEY2m);
+  --token-1SGUl1w4ceZt: #c5ee93;
+  --plasmic-token-all-green-natural-vivid-010: var(--token-1SGUl1w4ceZt);
+  --token-wioacs6sTKkR: #98d035;
+  --plasmic-token-all-green-natural-vivid-020: var(--token-wioacs6sTKkR);
+  --token-lUDibuE_Dkl4: #7fb135;
+  --plasmic-token-all-green-natural-vivid-030: var(--token-lUDibuE_Dkl4);
+  --token-VlSxj1FW20gg: #719f2a;
+  --plasmic-token-all-green-natural-vivid-040: var(--token-VlSxj1FW20gg);
+  --token-SLF7SA-uu2zR: #538200;
+  --plasmic-token-all-green-natural-vivid-050: var(--token-SLF7SA-uu2zR);
+  --token-1OToRHf-DOda: #466c04;
+  --plasmic-token-all-green-natural-vivid-060: var(--token-1OToRHf-DOda);
+  --token-yV9UPt4_o5Fd: #2f4a0b;
+  --plasmic-token-all-green-natural-vivid-070: var(--token-yV9UPt4_o5Fd);
+  --token-XelN67nkVhW-: #243413;
+  --plasmic-token-all-green-natural-vivid-080: var(--token-XelN67nkVhW-);
+  --token-SN4uzu04YgQu: #ecf3ec;
+  --plasmic-token-all-green-cool-natural-005: var(--token-SN4uzu04YgQu);
+  --token-QgBpmpYe8iv3: #dbebde;
+  --plasmic-token-all-green-cool-natural-010: var(--token-QgBpmpYe8iv3);
+  --token-HYnJ0h0CB1uG: #b4d0b9;
+  --plasmic-token-all-green-cool-natural-020: var(--token-HYnJ0h0CB1uG);
+  --token-GhIDXaLrGIO1: #86b98e;
+  --plasmic-token-all-green-cool-natural-030: var(--token-GhIDXaLrGIO1);
+  --token-J6qDBOhlE4Mk: #5e9f69;
+  --plasmic-token-all-green-cool-natural-040: var(--token-J6qDBOhlE4Mk);
+  --token-5qlWrZuJol0F: #4d8055;
+  --plasmic-token-all-green-cool-natural-050: var(--token-5qlWrZuJol0F);
+  --token-r3-BFP6qw0Vv: #446443;
+  --plasmic-token-all-green-cool-natural-060: var(--token-r3-BFP6qw0Vv);
+  --token-403cwU8K8bjk: #37493b;
+  --plasmic-token-all-green-cool-natural-070: var(--token-403cwU8K8bjk);
+  --token-_5RGGEP45B6Q: #28312a;
+  --plasmic-token-all-green-cool-natural-080: var(--token-_5RGGEP45B6Q);
+  --token-wJuXzBdMcfb1: #e3f5e1;
+  --plasmic-token-all-green-cool-vivid-005: var(--token-wJuXzBdMcfb1);
+  --token-214d7OvOFfCf: #b7f5bd;
+  --plasmic-token-all-green-cool-vivid-010: var(--token-214d7OvOFfCf);
+  --token-aJFQBDq7JNFA: #70e17b;
+  --plasmic-token-all-green-cool-vivid-020: var(--token-aJFQBDq7JNFA);
+  --token-kG3NmPaeiMXE: #21c834;
+  --plasmic-token-all-green-cool-vivid-030: var(--token-kG3NmPaeiMXE);
+  --token-5b0RFMTSA2lK: #00a91c;
+  --plasmic-token-all-green-cool-vivid-040: var(--token-5b0RFMTSA2lK);
+  --token-79ITlz-2Vcxk: #008817;
+  --plasmic-token-all-green-cool-vivid-050: var(--token-79ITlz-2Vcxk);
+  --token-RHgKI2Jl341k: #216e1f;
+  --plasmic-token-all-green-cool-vivid-060: var(--token-RHgKI2Jl341k);
+  --token-tf_QOivEgnvD: #154c21;
+  --plasmic-token-all-green-cool-vivid-070: var(--token-tf_QOivEgnvD);
+  --token-1KESPQ6wGbIs: #19311e;
+  --plasmic-token-all-green-cool-vivid-080: var(--token-1KESPQ6wGbIs);
+  --token-i3u81H6ZrSE_: #dbf6ed;
+  --plasmic-token-all-160-mint-natural-natural-005: var(--token-i3u81H6ZrSE_);
+  --token-3XB1mv2FgMFF: #c7efe2;
+  --plasmic-token-all-160-mint-natural-natural-010: var(--token-3XB1mv2FgMFF);
+  --token-NSu1OGt3aeKJ: #92d9bb;
+  --plasmic-token-all-160-mint-natural-natural-020: var(--token-NSu1OGt3aeKJ);
+  --token-oqbnf6FOoV3P: #5abf95;
+  --plasmic-token-all-160-mint-natural-natural-030: var(--token-oqbnf6FOoV3P);
+  --token-wsvDoY7_FPFH: #34a37e;
+  --plasmic-token-all-160-mint-natural-natural-040: var(--token-wsvDoY7_FPFH);
+  --token-_HaxLybPj6py: #2e8367;
+  --plasmic-token-all-160-mint-natural-natural-050: var(--token-_HaxLybPj6py);
+  --token-hmrx8CXNWSIl: #286846;
+  --plasmic-token-all-160-mint-natural-natural-060: var(--token-hmrx8CXNWSIl);
+  --token-UDwtq-LtBQkJ: #204e34;
+  --plasmic-token-all-160-mint-natural-natural-070: var(--token-UDwtq-LtBQkJ);
+  --token-Au4bHr6dr84V: #193324;
+  --plasmic-token-all-160-mint-natural-natural-080: var(--token-Au4bHr6dr84V);
+  --token-v3ub7ylaHMaG: #0d1a12;
+  --plasmic-token-all-160-mint-natural-natural-090: var(--token-v3ub7ylaHMaG);
+  --token-9ajHpvjYyJa3: #c9fbeb;
+  --plasmic-token-all-160-mint-natural-vivid-005: var(--token-9ajHpvjYyJa3);
+  --token-517aDJMuBc8d: #83fcd4;
+  --plasmic-token-all-160-mint-natural-vivid-010: var(--token-517aDJMuBc8d);
+  --token-OznbqP9bU1u5: #0ceda6;
+  --plasmic-token-all-160-mint-natural-vivid-020: var(--token-OznbqP9bU1u5);
+  --token-tV6waBtYSfoC: #04c585;
+  --plasmic-token-all-160-mint-natural-vivid-030: var(--token-tV6waBtYSfoC);
+  --token-egrUpC8re2G3: #00a871;
+  --plasmic-token-all-160-mint-natural-vivid-040: var(--token-egrUpC8re2G3);
+  --token-hDKR7x6ucaMd: #008659;
+  --plasmic-token-all-160-mint-natural-vivid-050: var(--token-hDKR7x6ucaMd);
+  --token-715Sz0xCLs62: #146947;
+  --plasmic-token-all-160-mint-natural-vivid-060: var(--token-715Sz0xCLs62);
+  --token-cXwKdG6L2ubs: #0c4e29;
+  --plasmic-token-all-160-mint-natural-vivid-070: var(--token-cXwKdG6L2ubs);
+  --token-WBzqjWOMxyPY: #0d351e;
+  --plasmic-token-all-160-mint-natural-vivid-080: var(--token-WBzqjWOMxyPY);
+  --token-xXI7YRSuYOg4: #e0f7f6;
+  --plasmic-token-all-175-mint-cool-natural-005: var(--token-xXI7YRSuYOg4);
+  --token-B0bocODLGmAW: #c4eeeb;
+  --plasmic-token-all-175-mint-cool-natural-010: var(--token-B0bocODLGmAW);
+  --token-c3rdRL-SQFN1: #9bd4cf;
+  --plasmic-token-all-175-mint-cool-natural-020: var(--token-c3rdRL-SQFN1);
+  --token-pI7HFIBKWU5Z: #6fbab3;
+  --plasmic-token-all-175-mint-cool-natural-030: var(--token-pI7HFIBKWU5Z);
+  --token-Ej7vG0N61uuz: #4f9e99;
+  --plasmic-token-all-175-mint-cool-natural-040: var(--token-Ej7vG0N61uuz);
+  --token-EV-xYWZOPd4P: #40807e;
+  --plasmic-token-all-175-mint-cool-natural-050: var(--token-EV-xYWZOPd4P);
+  --token-GyRMQzxhxxzR: #376462;
+  --plasmic-token-all-175-mint-cool-natural-060: var(--token-GyRMQzxhxxzR);
+  --token-jSaiBL0PzrOa: #2a4b45;
+  --plasmic-token-all-175-mint-cool-natural-070: var(--token-jSaiBL0PzrOa);
+  --token-SQT685jxvCRo: #203131;
+  --plasmic-token-all-175-mint-cool-natural-080: var(--token-SQT685jxvCRo);
+  --token-WQBwhcMJG5tN: #111818;
+  --plasmic-token-all-175-mint-cool-natural-090: var(--token-WQBwhcMJG5tN);
+  --token-aObVeUY-qIID: #d5fbf3;
+  --plasmic-token-all-175-mint-cool-vivid-005: var(--token-aObVeUY-qIID);
+  --token-vnRP-Ow9tSI-: #7efbe1;
+  --plasmic-token-all-175-mint-cool-vivid-010: var(--token-vnRP-Ow9tSI-);
+  --token-vTy_xccetgbP: #29e1cb;
+  --plasmic-token-all-175-mint-cool-vivid-020: var(--token-vTy_xccetgbP);
+  --token-qRc-ADZ25Plg: #1dc2ae;
+  --plasmic-token-all-175-mint-cool-vivid-030: var(--token-qRc-ADZ25Plg);
+  --token-BPkk0YmMk2Xx: #00a398;
+  --plasmic-token-all-175-mint-cool-vivid-040: var(--token-BPkk0YmMk2Xx);
+  --token-vplTEAzR1fZW: #008480;
+  --plasmic-token-all-175-mint-cool-vivid-050: var(--token-vplTEAzR1fZW);
+  --token-EegBDLvrJVij: #0f6460;
+  --plasmic-token-all-175-mint-cool-vivid-060: var(--token-EegBDLvrJVij);
+  --token--69H8_KkKiiI: #0b4b3f;
+  --plasmic-token-all-175-mint-cool-vivid-070: var(--token--69H8_KkKiiI);
+  --token-1dUjtVSNVF2W: #123131;
+  --plasmic-token-all-175-mint-cool-vivid-080: var(--token-1dUjtVSNVF2W);
+  --token-8mZfRhpiNp2y: #e7f6f8;
+  --plasmic-token-all-cyan-natural-natural-005: var(--token-8mZfRhpiNp2y);
+  --token-EFTS4sNDs35U: #ccecf2;
+  --plasmic-token-all-cyan-natural-natural-010: var(--token-EFTS4sNDs35U);
+  --token-cYn0dIWMEXAU: #99deea;
+  --plasmic-token-all-cyan-natural-natural-020: var(--token-cYn0dIWMEXAU);
+  --token-hU8M_9de3DRv: #5dc0d1;
+  --plasmic-token-all-cyan-natural-natural-030: var(--token-hU8M_9de3DRv);
+  --token-9edcexR7NtWd: #449dac;
+  --plasmic-token-all-cyan-natural-natural-040: var(--token-9edcexR7NtWd);
+  --token-gz9yCgT9LYb1: #168092;
+  --plasmic-token-all-cyan-natural-natural-050: var(--token-gz9yCgT9LYb1);
+  --token-oLU2odT5qHKH: #2a646d;
+  --plasmic-token-all-cyan-natural-natural-060: var(--token-oLU2odT5qHKH);
+  --token-pJ8aBuHV-adz: #2c4a4e;
+  --plasmic-token-all-cyan-natural-natural-070: var(--token-pJ8aBuHV-adz);
+  --token-kivklfGiPKp8: #203133;
+  --plasmic-token-all-cyan-natural-natural-080: var(--token-kivklfGiPKp8);
+  --token-NQN3gprHXuao: #111819;
+  --plasmic-token-all-cyan-natural-natural-090: var(--token-NQN3gprHXuao);
+  --token-HlJXO5GmjHKC: #e5faff;
+  --plasmic-token-all-cyan-natural-vivid-005: var(--token-HlJXO5GmjHKC);
+  --token-SzWb59pA_Gi1: #a8f2ff;
+  --plasmic-token-all-cyan-natural-vivid-010: var(--token-SzWb59pA_Gi1);
+  --token-oK-i1ZQqt0g3: #52daf2;
+  --plasmic-token-all-cyan-natural-vivid-020: var(--token-oK-i1ZQqt0g3);
+  --token-y-DAONrWGGgz: #00bde3;
+  --plasmic-token-all-cyan-natural-vivid-030: var(--token-y-DAONrWGGgz);
+  --token--pyHBNAQBS0d: #009ec1;
+  --plasmic-token-all-cyan-natural-vivid-040: var(--token--pyHBNAQBS0d);
+  --token-_AD4-neMF_Jx: #00687d;
+  --plasmic-token-all-cyan-natural-vivid-060: var(--token-_AD4-neMF_Jx);
+  --token-FzuwqC8sm6Yb: #0081a1;
+  --plasmic-token-all-cyan-natural-vivid-050: var(--token-FzuwqC8sm6Yb);
+  --token-I4gXsojtzwRX: #0e4f5c;
+  --plasmic-token-all-cyan-natural-vivid-070: var(--token-I4gXsojtzwRX);
+  --token-2X4LrCgddUOj: #093b44;
+  --plasmic-token-all-cyan-natural-vivid-080: var(--token-2X4LrCgddUOj);
+  --token-p6tBlunvEJq5: #e7f2f5;
+  --plasmic-token-all-195-blue-cool-natural-005: var(--token-p6tBlunvEJq5);
+  --token-Is94e9FbCnDA: #dae9ee;
+  --plasmic-token-all-195-blue-cool-natural-010: var(--token-Is94e9FbCnDA);
+  --token-NxGkW8CEGCgd: #adcfdc;
+  --plasmic-token-all-195-blue-cool-natural-020: var(--token-NxGkW8CEGCgd);
+  --token-V-iKJz6rUFfE: #82b4c9;
+  --plasmic-token-all-195-blue-cool-natural-030: var(--token-V-iKJz6rUFfE);
+  --token-o7ZBPXaJCFDX: #6499af;
+  --plasmic-token-all-195-blue-cool-natural-040: var(--token-o7ZBPXaJCFDX);
+  --token-kz8h7b7il-C3: #3a7d95;
+  --plasmic-token-all-195-blue-cool-natural-050: var(--token-kz8h7b7il-C3);
+  --token-KIpSJARv_VQ4: #2e6276;
+  --plasmic-token-all-195-blue-cool-natural-060: var(--token-KIpSJARv_VQ4);
+  --token-B54__1uSZoEd: #224a58;
+  --plasmic-token-all-195-blue-cool-natural-070: var(--token-B54__1uSZoEd);
+  --token-oWjna6GeOs7U: #14333d;
+  --plasmic-token-all-195-blue-cool-natural-080: var(--token-oWjna6GeOs7U);
+  --token-3DGn9Hkkzev1: #0f191c;
+  --plasmic-token-all-195-blue-cool-natural-090: var(--token-3DGn9Hkkzev1);
+  --token-9KLtoNLOvtgW: #e1f3f8;
+  --plasmic-token-all-195-blue-cool-vivid-005: var(--token-9KLtoNLOvtgW);
+  --token-FnRBk-dVzNJx: #c3ebfa;
+  --plasmic-token-all-195-blue-cool-vivid-010: var(--token-FnRBk-dVzNJx);
+  --token-5vJXCL3fF60C: #97d4ea;
+  --plasmic-token-all-195-blue-cool-vivid-020: var(--token-5vJXCL3fF60C);
+  --token--B8xX_D-wF2E: #59b9de;
+  --plasmic-token-all-195-blue-cool-vivid-030: var(--token--B8xX_D-wF2E);
+  --token-Sek0YBmy7nde: #28a0cb;
+  --plasmic-token-all-195-blue-cool-vivid-040: var(--token-Sek0YBmy7nde);
+  --token-d5gwOVns9Rqg: #0d7ea2;
+  --plasmic-token-all-195-blue-cool-vivid-050: var(--token-d5gwOVns9Rqg);
+  --token-SjPapEQlZLmk: #07648d;
+  --plasmic-token-all-195-blue-cool-vivid-060: var(--token-SjPapEQlZLmk);
+  --token-Na97yqk-EffX: #074b69;
+  --plasmic-token-all-195-blue-cool-vivid-070: var(--token-Na97yqk-EffX);
+  --token-iwOTOZZsKWMH: #002d3f;
+  --plasmic-token-all-195-blue-cool-vivid-080: var(--token-iwOTOZZsKWMH);
+  --token-92EtrcHjTGJ-: #eff6fb;
+  --plasmic-token-all-blue-natural-natural-005: var(--token-92EtrcHjTGJ-);
+  --token-l3xzMRZYM_X9: #d9e8f6;
+  --plasmic-token-all-blue-natural-natural-010: var(--token-l3xzMRZYM_X9);
+  --token-IpZo8EhjBErf: #aacdec;
+  --plasmic-token-all-blue-natural-natural-020: var(--token-IpZo8EhjBErf);
+  --token-1tLyPEFk-M3z: #73b3e7;
+  --plasmic-token-all-blue-natural-natural-030: var(--token-1tLyPEFk-M3z);
+  --token-3haEZxPGYrxM: #4f97d1;
+  --plasmic-token-all-blue-natural-natural-040: var(--token-3haEZxPGYrxM);
+  --token-mYpSufSL2iSe: #2378c3;
+  --plasmic-token-all-blue-natural-natural-050: var(--token-mYpSufSL2iSe);
+  --token-YOpxGQ40tZNB: #2c608a;
+  --plasmic-token-all-blue-natural-natural-060: var(--token-YOpxGQ40tZNB);
+  --token-9kzknhMBb470: #274863;
+  --plasmic-token-all-blue-natural-natural-070: var(--token-9kzknhMBb470);
+  --token-fgprj1vXjADB: #1f303e;
+  --plasmic-token-all-blue-natural-natural-080: var(--token-fgprj1vXjADB);
+  --token-jAdKwaCfyGpi: #11181d;
+  --plasmic-token-all-blue-natural-natural-090: var(--token-jAdKwaCfyGpi);
+  --token-P6rcBeU4Uj_U: #e8f5ff;
+  --plasmic-token-all-blue-natural-vivid-005: var(--token-P6rcBeU4Uj_U);
+  --token-2T-9Jk2mkGB-: #cfe8ff;
+  --plasmic-token-all-blue-natural-vivid-010: var(--token-2T-9Jk2mkGB-);
+  --token-YPmXrVpZLTkj: #a1d3ff;
+  --plasmic-token-all-blue-natural-vivid-020: var(--token-YPmXrVpZLTkj);
+  --token-u5Rs0835cIGa: #58b4ff;
+  --plasmic-token-all-blue-natural-vivid-030: var(--token-u5Rs0835cIGa);
+  --token-Hb_Cn6kBZbND: #2491ff;
+  --plasmic-token-all-blue-natural-vivid-040: var(--token-Hb_Cn6kBZbND);
+  --token-CoY1Es65lg8I: #0076d6;
+  --plasmic-token-all-blue-natural-vivid-050: var(--token-CoY1Es65lg8I);
+  --token-PrjA6WvT-BMJ: #005ea2;
+  --plasmic-token-all-blue-natural-vivid-060: var(--token-PrjA6WvT-BMJ);
+  --token-v60Y_4xhROGr: #0b4778;
+  --plasmic-token-all-blue-natural-vivid-070: var(--token-v60Y_4xhROGr);
+  --token-1Ute3CbdTCZP: #112f4e;
+  --plasmic-token-all-blue-natural-vivid-080: var(--token-1Ute3CbdTCZP);
+  --token-eI3nmYXU9u01: #ecf1f7;
+  --plasmic-token-all-blue-warm-natural-005: var(--token-eI3nmYXU9u01);
+  --token-Dbkuy2V87lmj: #e1e7f1;
+  --plasmic-token-all-blue-warm-natural-010: var(--token-Dbkuy2V87lmj);
+  --token-Ab8VuJoCb9wD: #bbcae4;
+  --plasmic-token-all-blue-warm-natural-020: var(--token-Ab8VuJoCb9wD);
+  --token-PkszcwGZtfbv: #98afd2;
+  --plasmic-token-all-blue-warm-natural-030: var(--token-PkszcwGZtfbv);
+  --token-20KJbjr1sVjD: #7292c7;
+  --plasmic-token-all-blue-warm-natural-040: var(--token-20KJbjr1sVjD);
+  --token-eCPxWio8PnkB: #345d96;
+  --plasmic-token-all-blue-warm-natural-060: var(--token-eCPxWio8PnkB);
+  --token-KVo1NDdQzS1l: #4a77b4;
+  --plasmic-token-all-blue-warm-natural-050: var(--token-KVo1NDdQzS1l);
+  --token-Jr6dNp4xRoZC: #2f4668;
+  --plasmic-token-all-blue-warm-natural-070: var(--token-Jr6dNp4xRoZC);
+  --token-ITFEulF3_nVH: #252f3e;
+  --plasmic-token-all-blue-warm-natural-080: var(--token-ITFEulF3_nVH);
+  --token-0Bam93CqQauc: #edf5ff;
+  --plasmic-token-all-blue-warm-vivid-005: var(--token-0Bam93CqQauc);
+  --token-j-WFNoJBC01g: #d4e5ff;
+  --plasmic-token-all-blue-warm-vivid-010: var(--token-j-WFNoJBC01g);
+  --token-2ol38J746vyq: #adcdff;
+  --plasmic-token-all-blue-warm-vivid-020: var(--token-2ol38J746vyq);
+  --token--15CnGPx8WY5: #81aefc;
+  --plasmic-token-all-blue-warm-vivid-030: var(--token--15CnGPx8WY5);
+  --token-MBpA_RnBuyNO: #5994f6;
+  --plasmic-token-all-blue-warm-vivid-040: var(--token-MBpA_RnBuyNO);
+  --token-6V-EToGUUmAw: #2672de;
+  --plasmic-token-all-blue-warm-vivid-050: var(--token-6V-EToGUUmAw);
+  --token-nW3bspP-QYjE: #0050d8;
+  --plasmic-token-all-blue-warm-vivid-060: var(--token-nW3bspP-QYjE);
+  --token-x4h9vhu7hxNT: #1a4480;
+  --plasmic-token-all-blue-warm-vivid-070: var(--token-x4h9vhu7hxNT);
+  --token-djdGV0cMDMnz: #162e51;
+  --plasmic-token-all-blue-warm-vivid-080: var(--token-djdGV0cMDMnz);
+  --token-woOrWmDhRqaV: #eef0f9;
+  --plasmic-token-all-indigo-cool-natural-005: var(--token-woOrWmDhRqaV);
+  --token-U7rYXBLN64fX: #eef0f9;
+  --plasmic-token-all-indigo-cool-natural-010: var(--token-U7rYXBLN64fX);
+  --token-OcsMIP-3V5mF: #bbc8f5;
+  --plasmic-token-all-indigo-cool-natural-020: var(--token-OcsMIP-3V5mF);
+  --token-YbtD13Kh_M1Y: #96abee;
+  --plasmic-token-all-indigo-cool-natural-030: var(--token-YbtD13Kh_M1Y);
+  --token-IQGNmP6L1Pzy: #6b8ee8;
+  --plasmic-token-all-indigo-cool-natural-040: var(--token-IQGNmP6L1Pzy);
+  --token-xrBhZTh2V51N: #496fd8;
+  --plasmic-token-all-indigo-cool-natural-050: var(--token-xrBhZTh2V51N);
+  --token-mnMPGauSIwq6: #3f57a6;
+  --plasmic-token-all-indigo-cool-natural-060: var(--token-mnMPGauSIwq6);
+  --token-5D8MJ4cmeQpJ: #374274;
+  --plasmic-token-all-indigo-cool-natural-070: var(--token-5D8MJ4cmeQpJ);
+  --token-Tpu7Ey9cmxje: #292d42;
+  --plasmic-token-all-indigo-cool-natural-080: var(--token-Tpu7Ey9cmxje);
+  --token-TgdIEi3CwiBd: #151622;
+  --plasmic-token-all-indigo-cool-natural-090: var(--token-TgdIEi3CwiBd);
+  --token-2I0S8-dIOD-Z: #edf0ff;
+  --plasmic-token-all-indigo-cool-vivid-005: var(--token-2I0S8-dIOD-Z);
+  --token-7xxYEA0yWWRX: #dee5ff;
+  --plasmic-token-all-indigo-cool-vivid-010: var(--token-7xxYEA0yWWRX);
+  --token-fAhsuTIqtE6H: #b8c8ff;
+  --plasmic-token-all-indigo-cool-vivid-020: var(--token-fAhsuTIqtE6H);
+  --token-YtwhmwhcJ4bd: #94adff;
+  --plasmic-token-all-indigo-cool-vivid-030: var(--token-YtwhmwhcJ4bd);
+  --token-F3bzFD5yq6my: #628ef4;
+  --plasmic-token-all-indigo-cool-vivid-040: var(--token-F3bzFD5yq6my);
+  --token-aWQDQKLYou6p: #4866ff;
+  --plasmic-token-all-indigo-cool-vivid-050: var(--token-aWQDQKLYou6p);
+  --token-utf0G21Jtwwq: #3e4ded;
+  --plasmic-token-all-indigo-cool-vivid-060: var(--token-utf0G21Jtwwq);
+  --token-RFUzDwA1eZGg: #222fbf;
+  --plasmic-token-all-indigo-cool-vivid-070: var(--token-RFUzDwA1eZGg);
+  --token-69Zt9-c8B44i: #1b2b85;
+  --plasmic-token-all-indigo-cool-vivid-080: var(--token-69Zt9-c8B44i);
+  --token--1QD4gOl03t4: #efeff8;
+  --plasmic-token-all-indigo-natural-natural-005: var(--token--1QD4gOl03t4);
+  --token-RlX6GP_EhVMd: #e5e4fa;
+  --plasmic-token-all-indigo-natural-natural-010: var(--token-RlX6GP_EhVMd);
+  --token-Riftrh2Znis2: #c5c5f3;
+  --plasmic-token-all-indigo-natural-natural-020: var(--token-Riftrh2Znis2);
+  --token-pW7q1PiXcqD2: #a5a8eb;
+  --plasmic-token-all-indigo-natural-natural-030: var(--token-pW7q1PiXcqD2);
+  --token-MfrneswcxQ2F: #8889db;
+  --plasmic-token-all-indigo-natural-natural-040: var(--token-MfrneswcxQ2F);
+  --token-nHnWGz2EqMiJ: #676cc8;
+  --plasmic-token-all-indigo-natural-natural-050: var(--token-nHnWGz2EqMiJ);
+  --token-gqfNOGvwG5tv: #4d52af;
+  --plasmic-token-all-indigo-natural-natural-060: var(--token-gqfNOGvwG5tv);
+  --token-LoA7uz0yQWGO: #3d4076;
+  --plasmic-token-all-indigo-natural-natural-070: var(--token-LoA7uz0yQWGO);
+  --token-1hTnfS5rwo84: #2b2c40;
+  --plasmic-token-all-indigo-natural-natural-080: var(--token-1hTnfS5rwo84);
+  --token-HoOy_7d4FtyG: #16171f;
+  --plasmic-token-all-indigo-natural-natural-090: var(--token-HoOy_7d4FtyG);
+  --token-A4k9eVW6cB8u: #f0f0ff;
+  --plasmic-token-all-indigo-natural-vivid-005: var(--token-A4k9eVW6cB8u);
+  --token-_WPEQpCgfuwQ: #e0e0ff;
+  --plasmic-token-all-indigo-natural-vivid-010: var(--token-_WPEQpCgfuwQ);
+  --token-JWQvLRid4dgj: #ccceff;
+  --plasmic-token-all-indigo-natural-vivid-020: var(--token-JWQvLRid4dgj);
+  --token-lIGpXoUxgnp0: #a3a7fa;
+  --plasmic-token-all-indigo-natural-vivid-030: var(--token-lIGpXoUxgnp0);
+  --token-q5QLj2iVzpBa: #8289ff;
+  --plasmic-token-all-indigo-natural-vivid-040: var(--token-q5QLj2iVzpBa);
+  --token-cuheclYkgBqh: #656bd7;
+  --plasmic-token-all-indigo-natural-vivid-050: var(--token-cuheclYkgBqh);
+  --token-l1_3LaSr88Ml: #4a50c4;
+  --plasmic-token-all-indigo-natural-vivid-060: var(--token-l1_3LaSr88Ml);
+  --token-NVI9kZb7MGwx: #3333a3;
+  --plasmic-token-all-indigo-natural-vivid-070: var(--token-NVI9kZb7MGwx);
+  --token-pWn4fryt5ali: #212463;
+  --plasmic-token-all-indigo-natural-vivid-080: var(--token-pWn4fryt5ali);
+  --token-zD8gO8NLbPFo: #f1eff7;
+  --plasmic-token-all-indigo-warm-natural-005: var(--token-zD8gO8NLbPFo);
+  --token--YamPzKMQC5e: #e7e3fa;
+  --plasmic-token-all-indigo-warm-natural-010: var(--token--YamPzKMQC5e);
+  --token-fW16jBbm9Y68: #cbc4f2;
+  --plasmic-token-all-indigo-warm-natural-020: var(--token-fW16jBbm9Y68);
+  --token-UakTnGElbDBe: #afa5e8;
+  --plasmic-token-all-indigo-warm-natural-030: var(--token-UakTnGElbDBe);
+  --token-PV9e87l5Zfuq: #9287d8;
+  --plasmic-token-all-indigo-warm-natural-040: var(--token-PV9e87l5Zfuq);
+  --token-xCH0CVrDXOb1: #7665d1;
+  --plasmic-token-all-indigo-warm-natural-050: var(--token-xCH0CVrDXOb1);
+  --token-uI7dfjZ6lR4G: #5e519e;
+  --plasmic-token-all-indigo-warm-natural-060: var(--token-uI7dfjZ6lR4G);
+  --token-ZgENUOQ69q0u: #453c7b;
+  --plasmic-token-all-indigo-warm-natural-070: var(--token-ZgENUOQ69q0u);
+  --token-VSLHJRujYTrm: #2e2c40;
+  --plasmic-token-all-indigo-warm-natural-080: var(--token-VSLHJRujYTrm);
+  --token-Whw7MO4KsmDo: #18161d;
+  --plasmic-token-all-indigo-warm-natural-090: var(--token-Whw7MO4KsmDo);
+  --token-9Czkk2zotpaG: #f5f2ff;
+  --plasmic-token-all-indigo-warm-vivid-005: var(--token-9Czkk2zotpaG);
+  --token-JjJRm8FGRp8i: #e4deff;
+  --plasmic-token-all-indigo-warm-vivid-010: var(--token-JjJRm8FGRp8i);
+  --token-fheJHlIle2bb: #cfc4fd;
+  --plasmic-token-all-indigo-warm-vivid-020: var(--token-fheJHlIle2bb);
+  --token-BRN1AOo9OwaL: #b69fff;
+  --plasmic-token-all-indigo-warm-vivid-030: var(--token-BRN1AOo9OwaL);
+  --token-Zgv6T_i7pAy2: #967efb;
+  --plasmic-token-all-indigo-warm-vivid-040: var(--token-Zgv6T_i7pAy2);
+  --token-TaTu3ENlTykN: #745fe9;
+  --plasmic-token-all-indigo-warm-vivid-050: var(--token-TaTu3ENlTykN);
+  --token-jY_M0o4kBrIF: #5942d2;
+  --plasmic-token-all-indigo-warm-vivid-060: var(--token-jY_M0o4kBrIF);
+  --token-HBds--fRJ_9c: #3d2c9d;
+  --plasmic-token-all-indigo-warm-vivid-070: var(--token-HBds--fRJ_9c);
+  --token-J9w8QaoTJl7B: #261f5b;
+  --plasmic-token-all-indigo-warm-vivid-080: var(--token-J9w8QaoTJl7B);
+  --token-4Z793Elv33rn: #f4f1f9;
+  --plasmic-token-all-260-violet-natural-natural-005: var(--token-4Z793Elv33rn);
+  --token-PMSzevh5QR7k: #ebe3f9;
+  --plasmic-token-all-260-violet-natural-natural-010: var(--token-PMSzevh5QR7k);
+  --token-KyxuCCwwGRT-: #d0c3e9;
+  --plasmic-token-all-260-violet-natural-natural-020: var(--token-KyxuCCwwGRT-);
+  --token-uWzbwjQPJ9Hy: #b8a2e3;
+  --plasmic-token-all-260-violet-natural-natural-030: var(--token-uWzbwjQPJ9Hy);
+  --token-no7kUzrjsam4: #9d84d2;
+  --plasmic-token-all-260-violet-natural-natural-040: var(--token-no7kUzrjsam4);
+  --token-pqpvijzcMnKD: #8168b3;
+  --plasmic-token-all-260-violet-natural-natural-050: var(--token-pqpvijzcMnKD);
+  --token-Xo0gEi5NGXQv: #665190;
+  --plasmic-token-all-260-violet-natural-natural-060: var(--token-Xo0gEi5NGXQv);
+  --token-JRcUcIiXKT3b: #4c3d69;
+  --plasmic-token-all-260-violet-natural-natural-070: var(--token-JRcUcIiXKT3b);
+  --token-SIv68YnlLshJ: #312b3f;
+  --plasmic-token-all-260-violet-natural-natural-080: var(--token-SIv68YnlLshJ);
+  --token-9EyOTC0DUFTL: #18161d;
+  --plasmic-token-all-260-violet-natural-natural-090: var(--token-9EyOTC0DUFTL);
+  --token-ldY_NXxIS0p5: #f7f2ff;
+  --plasmic-token-all-260-violet-natural-vivid-005: var(--token-ldY_NXxIS0p5);
+  --token-mjVUfJWqCxvP: #ede3ff;
+  --plasmic-token-all-260-violet-natural-vivid-010: var(--token-mjVUfJWqCxvP);
+  --token-MKZEQIaglfs0: #d5bfff;
+  --plasmic-token-all-260-violet-natural-vivid-020: var(--token-MKZEQIaglfs0);
+  --token-CUDQIo8SNWxH: #c39deb;
+  --plasmic-token-all-260-violet-natural-vivid-030: var(--token-CUDQIo8SNWxH);
+  --token-qvNgzAGWgCM0: #ad79e9;
+  --plasmic-token-all-260-violet-natural-vivid-040: var(--token-qvNgzAGWgCM0);
+  --token--GqBKpzgCV2y: #9355dc;
+  --plasmic-token-all-260-violet-natural-vivid-050: var(--token--GqBKpzgCV2y);
+  --token-VAI4nJMhRmnD: #783cb9;
+  --plasmic-token-all-260-violet-natural-vivid-060: var(--token-VAI4nJMhRmnD);
+  --token-bKTZosHaLUV4: #54278f;
+  --plasmic-token-all-260-violet-natural-vivid-070: var(--token-bKTZosHaLUV4);
+  --token-5v8430m39iFT: #39215e;
+  --plasmic-token-all-260-violet-natural-vivid-080: var(--token-5v8430m39iFT);
+  --token-hLEiy1yLoFTE: #f8f0f9;
+  --plasmic-token-all-300-violet-warm-natural-005: var(--token-hLEiy1yLoFTE);
+  --token-4mf8QTX39fnp: #f6dff8;
+  --plasmic-token-all-300-violet-warm-natural-010: var(--token-4mf8QTX39fnp);
+  --token-5txhzxVxZXS_: #e2bee4;
+  --plasmic-token-all-300-violet-warm-natural-020: var(--token-5txhzxVxZXS_);
+  --token-UO5EW96Wz6bT: #d29ad8;
+  --plasmic-token-all-300-violet-warm-natural-030: var(--token-UO5EW96Wz6bT);
+  --token-DHVLhnD8bE8b: #bf77c8;
+  --plasmic-token-all-300-violet-warm-natural-040: var(--token-DHVLhnD8bE8b);
+  --token-vwtethw5Podb: #b04abd;
+  --plasmic-token-all-300-violet-warm-natural-050: var(--token-vwtethw5Podb);
+  --token-Dle5yVUshEv0: #864381;
+  --plasmic-token-all-300-violet-warm-natural-060: var(--token-Dle5yVUshEv0);
+  --token-CTWZ04h4YGZM: #5c395a;
+  --plasmic-token-all-300-violet-warm-natural-070: var(--token-CTWZ04h4YGZM);
+  --token-8f7wsDtm4Cnt: #382936;
+  --plasmic-token-all-300-violet-warm-natural-080: var(--token-8f7wsDtm4Cnt);
+  --token-03ssiyBnuYmo: #1b151b;
+  --plasmic-token-all-300-violet-warm-natural-090: var(--token-03ssiyBnuYmo);
+  --token-b8T0skCxuJdp: #fef2ff;
+  --plasmic-token-all-300-violet-warm-vivid-005: var(--token-b8T0skCxuJdp);
+  --token-SSRrP1ukl2dK: #fbdcff;
+  --plasmic-token-all-300-violet-warm-vivid-010: var(--token-SSRrP1ukl2dK);
+  --token-IuWsb3rH623q: #f4b2ff;
+  --plasmic-token-all-300-violet-warm-vivid-020: var(--token-IuWsb3rH623q);
+  --token-EO9WtyTcJMyx: #ee83ff;
+  --plasmic-token-all-300-violet-warm-vivid-030: var(--token-EO9WtyTcJMyx);
+  --token-orMSbWhybTJC: #d85bef;
+  --plasmic-token-all-300-violet-warm-vivid-040: var(--token-orMSbWhybTJC);
+  --token-w1B6hvHOMGcT: #be32d0;
+  --plasmic-token-all-300-violet-warm-vivid-050: var(--token-w1B6hvHOMGcT);
+  --token-E5KwAFeMYQul: #93348c;
+  --plasmic-token-all-300-violet-warm-vivid-060: var(--token-E5KwAFeMYQul);
+  --token-uzrlMZLxai3k: #711e6c;
+  --plasmic-token-all-300-violet-warm-vivid-070: var(--token-uzrlMZLxai3k);
+  --token-PHOsUDAIFEye: #481441;
+  --plasmic-token-all-300-violet-warm-vivid-080: var(--token-PHOsUDAIFEye);
+  --token-IKGZxNgNoElL: #f9f0f2;
+  --plasmic-token-all-magenta-natural-natural-005: var(--token-IKGZxNgNoElL);
+  --token-rHFqouDT7viU: #f6e1e8;
+  --plasmic-token-all-magenta-natural-natural-010: var(--token-rHFqouDT7viU);
+  --token-RaOxVBCnPrMr: #f0bbcc;
+  --plasmic-token-all-magenta-natural-natural-020: var(--token-RaOxVBCnPrMr);
+  --token-ROz661pDbTB4: #e895b3;
+  --plasmic-token-all-magenta-natural-natural-030: var(--token-ROz661pDbTB4);
+  --token-5IB7rzb4cqo-: #e0699f;
+  --plasmic-token-all-magenta-natural-natural-040: var(--token-5IB7rzb4cqo-);
+  --token-YaboR9CY0x2q: #c84281;
+  --plasmic-token-all-magenta-natural-natural-050: var(--token-YaboR9CY0x2q);
+  --token-0sjX7O0ASmJA: #8b4566;
+  --plasmic-token-all-magenta-natural-natural-060: var(--token-0sjX7O0ASmJA);
+  --token-1xsbcQpa-c2R: #66364b;
+  --plasmic-token-all-magenta-natural-natural-070: var(--token-1xsbcQpa-c2R);
+  --token-_6hHLNw2U8jf: #402731;
+  --plasmic-token-all-magenta-natural-natural-080: var(--token-_6hHLNw2U8jf);
+  --token-66s47dJxZ0Ix: #1b1617;
+  --plasmic-token-all-magenta-natural-natural-090: var(--token-66s47dJxZ0Ix);
+  --token-b3JdEsd1sJna: #fff2f5;
+  --plasmic-token-all-magenta-natural-vivid-005: var(--token-b3JdEsd1sJna);
+  --token-YF8eOcXNe46t: #ffddea;
+  --plasmic-token-all-magenta-natural-vivid-010: var(--token-YF8eOcXNe46t);
+  --token-kys-U_OFWDG4: #ffb4cf;
+  --plasmic-token-all-magenta-natural-vivid-020: var(--token-kys-U_OFWDG4);
+  --token-HgFLVffhHCrF: #ff87b2;
+  --plasmic-token-all-magenta-natural-vivid-030: var(--token-HgFLVffhHCrF);
+  --token-0yG5TPm6Uckv: #fd4496;
+  --plasmic-token-all-magenta-natural-vivid-040: var(--token-0yG5TPm6Uckv);
+  --token-DXHpAHrUr119: #d72d79;
+  --plasmic-token-all-magenta-natural-vivid-050: var(--token-DXHpAHrUr119);
+  --token-sqFp0u0soX-y: #ab2165;
+  --plasmic-token-all-magenta-natural-vivid-060: var(--token-sqFp0u0soX-y);
+  --token-v-ZVwth8yYu3: #731f44;
+  --plasmic-token-all-magenta-natural-vivid-070: var(--token-v-ZVwth8yYu3);
+  --token-Ha_WB7k7o2Bw: #4f172e;
+  --plasmic-token-all-magenta-natural-vivid-080: var(--token-Ha_WB7k7o2Bw);
+  --token-2yp0ZAABqcJm: #f0f0f0;
+  --plasmic-token-all-gray-natural-natural-005: var(--token-2yp0ZAABqcJm);
+  --token-eRSXRa1feRSK: #e6e6e6;
+  --plasmic-token-all-gray-natural-natural-010: var(--token-eRSXRa1feRSK);
+  --token-E84PMTTbius4: #c9c9c9;
+  --plasmic-token-all-gray-natural-natural-020: var(--token-E84PMTTbius4);
+  --token-j9gtRIW5Mz3O: #adadad;
+  --plasmic-token-all-gray-natural-natural-030: var(--token-j9gtRIW5Mz3O);
+  --token-LL4Kswq2NkdI: #919191;
+  --plasmic-token-all-gray-natural-natural-040: var(--token-LL4Kswq2NkdI);
+  --token-cMGXuKRuO6BZ: #757575;
+  --plasmic-token-all-gray-natural-natural-050: var(--token-cMGXuKRuO6BZ);
+  --token-Puw_-wT4Tz8M: #5c5c5c;
+  --plasmic-token-all-gray-natural-natural-060: var(--token-Puw_-wT4Tz8M);
+  --token-O_sJSdx1rwj7: #454545;
+  --plasmic-token-all-gray-natural-natural-070: var(--token-O_sJSdx1rwj7);
+  --token-UXB5vv7aWqhu: #2e2e2e;
+  --plasmic-token-all-gray-natural-natural-080: var(--token-UXB5vv7aWqhu);
+  --token-E-PAyO5GDpiY: #1b1b1b;
+  --plasmic-token-all-gray-natural-natural-090: var(--token-E-PAyO5GDpiY);
+  --token-OwhwtACZbnu9: #edeff0;
+  --plasmic-token-all-gray-cool-natural-005: var(--token-OwhwtACZbnu9);
+  --token-zFKY-sc1z2dj: #dfe1e2;
+  --plasmic-token-all-gray-cool-natural-010: var(--token-zFKY-sc1z2dj);
+  --token-0kmINGvuO05n: #c6cace;
+  --plasmic-token-all-gray-cool-natural-020: var(--token-0kmINGvuO05n);
+  --token-xRPfyRHpDOE3: #a9aeb1;
+  --plasmic-token-all-gray-cool-natural-030: var(--token-xRPfyRHpDOE3);
+  --token-VPQIUxXe2XBD: #8d9297;
+  --plasmic-token-all-gray-cool-natural-040: var(--token-VPQIUxXe2XBD);
+  --token-ky5MeswFYxbw: #71767a;
+  --plasmic-token-all-gray-cool-natural-050: var(--token-ky5MeswFYxbw);
+  --token-OTc9ZK9rAG67: #565c65;
+  --plasmic-token-all-gray-cool-natural-060: var(--token-OTc9ZK9rAG67);
+  --token-7P9U0P3KGTyI: #3d4551;
+  --plasmic-token-all-gray-cool-natural-070: var(--token-7P9U0P3KGTyI);
+  --token-9p7R2ihMn0FB: #2d2e2f;
+  --plasmic-token-all-gray-cool-natural-080: var(--token-9p7R2ihMn0FB);
+  --token-cLQsFrrfpMcZ: #1c1d1f;
+  --plasmic-token-all-gray-cool-natural-090: var(--token-cLQsFrrfpMcZ);
+  --token-kyzJKbYjoriL: #f0f0ec;
+  --plasmic-token-all-gray-warm-natural-005: var(--token-kyzJKbYjoriL);
+  --token-ngcIYZTeM1RR: #e6e6e2;
+  --plasmic-token-all-gray-warm-natural-010: var(--token-ngcIYZTeM1RR);
+  --token--K3-thYo-6AM: #cac9c0;
+  --plasmic-token-all-gray-warm-natural-020: var(--token--K3-thYo-6AM);
+  --token-lnlxOcKkzUUV: #afaea2;
+  --plasmic-token-all-gray-warm-natural-030: var(--token-lnlxOcKkzUUV);
+  --token-OG5KRbrEQJaP: #929285;
+  --plasmic-token-all-gray-warm-natural-040: var(--token-OG5KRbrEQJaP);
+  --token-CIOuh3h-gVqs: #76766a;
+  --plasmic-token-all-gray-warm-natural-050: var(--token-CIOuh3h-gVqs);
+  --token-gTO_9nR_8Ve1: #5d5d52;
+  --plasmic-token-all-gray-warm-natural-060: var(--token-gTO_9nR_8Ve1);
+  --token-cUJtzwH3-PX8: #454540;
+  --plasmic-token-all-gray-warm-natural-070: var(--token-cUJtzwH3-PX8);
+  --token-3FVw7TfT2fUR: #2e2e2a;
+  --plasmic-token-all-gray-warm-natural-080: var(--token-3FVw7TfT2fUR);
+  --token-10Y4cPR2P9qY: #171716;
+  --plasmic-token-all-gray-warm-natural-090: var(--token-10Y4cPR2P9qY);
+  --token-9Zc3qknZKoRy: 1;
+  --plasmic-token-100: var(--token-9Zc3qknZKoRy);
+  --token-Tcj5CWIDZfEj: 0.9;
+  --plasmic-token-090: var(--token-Tcj5CWIDZfEj);
+  --token-SqvKHNqfwTzP: 0.8;
+  --plasmic-token-080: var(--token-SqvKHNqfwTzP);
+  --token-_MpwwcqeYAdZ: 0.7;
+  --plasmic-token-070: var(--token-_MpwwcqeYAdZ);
+  --token-SXvyMOjYzchc: 0.6;
+  --plasmic-token-060: var(--token-SXvyMOjYzchc);
+  --token-kNH51WtDDq_k: 0.5;
+  --plasmic-token-050: var(--token-kNH51WtDDq_k);
+  --token-Gi-NZS2cAl8M: 0.4;
+  --plasmic-token-040: var(--token-Gi-NZS2cAl8M);
+  --token-V7zL4Z8QU2mi: 0.3;
+  --plasmic-token-030: var(--token-V7zL4Z8QU2mi);
+  --token-s7WG_f8QVklb: 0.2;
+  --plasmic-token-020: var(--token-s7WG_f8QVklb);
+  --token-8aFMaGDpF0q_: 0.1;
+  --plasmic-token-010: var(--token-8aFMaGDpF0q_);
+  --token-eiNGDtqugr-Z: 0;
+  --plasmic-token-000: var(--token-eiNGDtqugr-Z);
+  --token-RrHunzqbcql-: 1px;
+  --plasmic-token-0-125: var(--token-RrHunzqbcql-);
+  --token-itp5KMUgK_NP: 2px;
+  --plasmic-token-0-250: var(--token-itp5KMUgK_NP);
+  --token-ndVt8YpVBSBf: 4px;
+  --plasmic-token-0-500: var(--token-ndVt8YpVBSBf);
+  --token--uIbonrvQEzg: -8px;
+  --plasmic-token-neg-001-000: var(--token--uIbonrvQEzg);
+  --token-T5WPUHe0_fNi: 12px;
+  --plasmic-token-001-500: var(--token-T5WPUHe0_fNi);
+  --token--D5DVhvhUpfF: 16px;
+  --plasmic-token-002-000: var(--token--D5DVhvhUpfF);
+  --token-CBweBf2ylK2X: 20px;
+  --plasmic-token-002-500: var(--token-CBweBf2ylK2X);
+  --token-h70z8fPUlMaD: 24px;
+  --plasmic-token-003-000: var(--token-h70z8fPUlMaD);
+  --token-tOoSUrs5bde-: 32px;
+  --plasmic-token-004-000: var(--token-tOoSUrs5bde-);
+  --token-uEVQBRddG6pS: 40px;
+  --plasmic-token-005-000: var(--token-uEVQBRddG6pS);
+  --token-PpK5ADCzgjW-: 48px;
+  --plasmic-token-006-000: var(--token-PpK5ADCzgjW-);
+  --token-Xv8RPmOA0yY6: 56px;
+  --plasmic-token-007-000: var(--token-Xv8RPmOA0yY6);
+  --token-fFki71w48F9q: 64px;
+  --plasmic-token-008-000: var(--token-fFki71w48F9q);
+  --token-MQp32_1T6Ufv: 72px;
+  --plasmic-token-009-000: var(--token-MQp32_1T6Ufv);
+  --token-shIdxmBEYeT3: 80px;
+  --plasmic-token-010-000: var(--token-shIdxmBEYeT3);
+  --token-sMFmY4nKHiB4: 120px;
+  --plasmic-token-015-000: var(--token-sMFmY4nKHiB4);
+  --token-rkjahOgvVU5W: 160px;
+  --plasmic-token-card: var(--token-rkjahOgvVU5W);
+  --token-ELYjPvK1-1gb: 240px;
+  --plasmic-token-card-lg: var(--token-ELYjPvK1-1gb);
+  --token-4MXmgm9NpJvb: 640px;
+  --plasmic-token-tablet: var(--token-4MXmgm9NpJvb);
+  --token-8zNDd0NLvG4k: 880px;
+  --plasmic-token-tablet-lg: var(--token-8zNDd0NLvG4k);
+  --token-FpmaqCzCXtjF: 320px;
+  --plasmic-token-mobile: var(--token-FpmaqCzCXtjF);
+  --token-Gv08Kc4qKuCg: 480px;
+  --plasmic-token-mobile-lg: var(--token-Gv08Kc4qKuCg);
+  --token-Eb685Py2hCYx: 1024px;
+  --plasmic-token-desktop: var(--token-Eb685Py2hCYx);
+  --token-wRsVwFgN2sgi: 1200px;
+  --plasmic-token-desktop-lg: var(--token-wRsVwFgN2sgi);
+  --token-q36NaecZN-xD: 1400px;
+  --plasmic-token-widescreen: var(--token-q36NaecZN-xD);
+  --token-ICHn7hqKCdkq: -1px;
+  --plasmic-token-neg-0-125: var(--token-ICHn7hqKCdkq);
+  --token-BpJLv7zSo4AP: -2px;
+  --plasmic-token-neg-0-250: var(--token-BpJLv7zSo4AP);
+  --token-QE_hK4iQNik8: -4px;
+  --plasmic-token-neg-0-500: var(--token-QE_hK4iQNik8);
+  --token-g-M4ejXHNEoy: 8px;
+  --plasmic-token-001-000: var(--token-g-M4ejXHNEoy);
+  --token-QhhXL7wS8Zmh: -12px;
+  --plasmic-token-neg-001-500: var(--token-QhhXL7wS8Zmh);
+  --token-w3YODNM4Yu7f: -16px;
+  --plasmic-token-neg-002-00: var(--token-w3YODNM4Yu7f);
+  --token-Tq4plxJYYeAb: -20px;
+  --plasmic-token-neg-002-500: var(--token-Tq4plxJYYeAb);
+  --token-vIE2tYi2B_qz: -24px;
+  --plasmic-token-neg-003-00: var(--token-vIE2tYi2B_qz);
+  --token-92BOQjvD3l3k: -32px;
+  --plasmic-token-neg-005-00: var(--token-92BOQjvD3l3k);
+  --token-VDY-0ajPahBr: -48px;
+  --plasmic-token-neg-006-00: var(--token-VDY-0ajPahBr);
+  --token-6DsIk503oR8G: -32px;
+  --plasmic-token-neg-004-00: var(--token-6DsIk503oR8G);
+  --token-r-DGkywR6Osr: -56px;
+  --plasmic-token-neg-007-00: var(--token-r-DGkywR6Osr);
+  --token-ctz7eIS-Ny7E: -64px;
+  --plasmic-token-neg-008-00: var(--token-ctz7eIS-Ny7E);
+  --token-PAHLcb4-NzTl: -72px;
+  --plasmic-token-neg-009-00: var(--token-PAHLcb4-NzTl);
+  --token-FWnaatYGvbWF: -80px;
+  --plasmic-token-neg-010-000: var(--token-FWnaatYGvbWF);
+  --token-ROI7LsD-JeKi: -120px;
+  --plasmic-token-neg-015-00: var(--token-ROI7LsD-JeKi);
+  --token-0s2KLMPt6Or2: var(--token-MB8IRTOMKdoa);
+  --plasmic-token-xs-3: var(--token-0s2KLMPt6Or2);
+  --token-rm3yYd7q__Dz: var(--token-u3B9yxOOwx7T);
+  --plasmic-token-xs-2: var(--token-rm3yYd7q__Dz);
+  --token-OH4hlGbCuPXe: var(--token-FJTnP2oVtxiy);
+  --plasmic-token-xs: var(--token-OH4hlGbCuPXe);
+  --token--d67dbMUGfHy: var(--token-ZY7Q2bF8KRot);
+  --plasmic-token-sm: var(--token--d67dbMUGfHy);
+  --token-DWgur3SC2Txw: var(--token-Khsu8plBNq63);
+  --plasmic-token-md: var(--token-DWgur3SC2Txw);
+  --token-BbEk6opUYWxk: var(--token-ZB8SYt5gEdgs);
+  --plasmic-token-lg: var(--token-BbEk6opUYWxk);
+  --token-ir-X2bRwhKhs: var(--token-pGo6qfJ_Aer7);
+  --plasmic-token-xl: var(--token-ir-X2bRwhKhs);
+  --token-uUunIq-mT5HV: var(--token-t6JtjxCgvSLf);
+  --plasmic-token-xl-2: var(--token-uUunIq-mT5HV);
+  --token-xNOmghSdDLjv: var(--token-S0-azZW4hCOc);
+  --plasmic-token-xl-3: var(--token-xNOmghSdDLjv);
+  --token-DQ7UsjNYnPI7: 10px;
+  --plasmic-token-micro: var(--token-DQ7UsjNYnPI7);
+  --token-O8doJchLR-Z2: 12px;
+  --plasmic-token-0001: var(--token-O8doJchLR-Z2);
+  --token-MB8IRTOMKdoa: 13px;
+  --plasmic-token-0002: var(--token-MB8IRTOMKdoa);
+  --token-u3B9yxOOwx7T: 14px;
+  --plasmic-token-0003: var(--token-u3B9yxOOwx7T);
+  --token-FJTnP2oVtxiy: 15px;
+  --plasmic-token-0004: var(--token-FJTnP2oVtxiy);
+  --token-ZY7Q2bF8KRot: 16px;
+  --plasmic-token-0005: var(--token-ZY7Q2bF8KRot);
+  --token-Khsu8plBNq63: 17px;
+  --plasmic-token-0006: var(--token-Khsu8plBNq63);
+  --token-ltSNIOAxZmPe: 18px;
+  --plasmic-token-0007: var(--token-ltSNIOAxZmPe);
+  --token-CX5nwFCQ5jHQ: 20px;
+  --plasmic-token-0008: var(--token-CX5nwFCQ5jHQ);
+  --token-ZB8SYt5gEdgs: 22px;
+  --plasmic-token-0009: var(--token-ZB8SYt5gEdgs);
+  --token-DQnmrI512URc: 28px;
+  --plasmic-token-0011: var(--token-DQnmrI512URc);
+  --token-pGo6qfJ_Aer7: 32px;
+  --plasmic-token-0012: var(--token-pGo6qfJ_Aer7);
+  --token-SR3OGLaIzwQc: 36px;
+  --plasmic-token-0013: var(--token-SR3OGLaIzwQc);
+  --token-t6JtjxCgvSLf: 40px;
+  --plasmic-token-0014: var(--token-t6JtjxCgvSLf);
+  --token-JL2Dumyvqh93: 56px;
+  --plasmic-token-0016: var(--token-JL2Dumyvqh93);
+  --token-S0-azZW4hCOc: 48px;
+  --plasmic-token-0015: var(--token-S0-azZW4hCOc);
+  --token-Pyurs3lbN8sC: 64px;
+  --plasmic-token-0017: var(--token-Pyurs3lbN8sC);
+  --token-sIIlI3onmfPq: 80px;
+  --plasmic-token-0018: var(--token-sIIlI3onmfPq);
+  --token-p2tDvsy91nic: 120px;
+  --plasmic-token-0019: var(--token-p2tDvsy91nic);
+  --token-sFbRJh9HduA5: 140px;
+  --plasmic-token-0020: var(--token-sFbRJh9HduA5);
+  --token-CmoYpuNhC2f6: 24px;
+  --plasmic-token-0010: var(--token-CmoYpuNhC2f6);
+  --token-IdOqQrE893ud: 1;
+  --plasmic-token-01: var(--token-IdOqQrE893ud);
+  --token-vFQeFFiFCo3q: 1.15;
+  --plasmic-token-02: var(--token-vFQeFFiFCo3q);
+  --token-9VNjk6pjcVlo: 1.35;
+  --plasmic-token-03: var(--token-9VNjk6pjcVlo);
+  --token-alpWsEvthtd7: 1.5;
+  --plasmic-token-04: var(--token-alpWsEvthtd7);
+  --token-KWKi3mbdHa3M: 1.62;
+  --plasmic-token-05: var(--token-KWKi3mbdHa3M);
+  --token-3vErnN4bEnr4: 1.75;
+  --plasmic-token-06: var(--token-3vErnN4bEnr4);
+  --token-ZShyVoRdi-9u: Roboto Mono;
+  --plasmic-token-mono: var(--token-ZShyVoRdi-9u);
+  --token-PR76sXch0r7h: Source Sans Pro;
+  --plasmic-token-sans: var(--token-PR76sXch0r7h);
+  --token-aQuDq0QmtGsG: Merriweather;
+  --plasmic-token-serif: var(--token-aQuDq0QmtGsG);
+  --token-Rleq_c3CIDx8: var(--token-aQuDq0QmtGsG);
+  --plasmic-token-alt: var(--token-Rleq_c3CIDx8);
+  --token-2HUz1vpv9Q3m: var(--token-PR76sXch0r7h);
+  --plasmic-token-body: var(--token-2HUz1vpv9Q3m);
+  --token-cWjrVYfY1tB-: var(--token-ZShyVoRdi-9u);
+  --plasmic-token-code: var(--token-cWjrVYfY1tB-);
+  --token-Lueu1te1eGIx: var(--token-aQuDq0QmtGsG);
+  --plasmic-token-heading: var(--token-Lueu1te1eGIx);
+  --token-dKs03mjV2GIM: var(--token-PR76sXch0r7h);
+  --plasmic-token-ui: var(--token-dKs03mjV2GIM);
+  --token-irrdCecewMtl: var(--token-eRSXRa1feRSK);
+  --plasmic-token-theme-base-lowest: var(--token-irrdCecewMtl);
+  --token-AaGsx2758039: var(--token-zFKY-sc1z2dj);
+  --plasmic-token-theme-base-lower: var(--token-AaGsx2758039);
+  --token-ngoCOQGpHKaZ: var(--token-xRPfyRHpDOE3);
+  --plasmic-token-theme-base-low: var(--token-ngoCOQGpHKaZ);
+  --token-SVnuA9G9qx-D: var(--token-VPQIUxXe2XBD);
+  --plasmic-token-theme-base: var(--token-SVnuA9G9qx-D);
+  --token-e6EFCvOp4CGp: var(--token-OTc9ZK9rAG67);
+  --plasmic-token-theme-base-high: var(--token-e6EFCvOp4CGp);
+  --token-djSUyPcqwQ9X: var(--token-7P9U0P3KGTyI);
+  --plasmic-token-theme-base-higher: var(--token-djSUyPcqwQ9X);
+  --token-r8mSput0HYyg: var(--token-E-PAyO5GDpiY);
+  --plasmic-token-theme-base-highest: var(--token-r8mSput0HYyg);
+  --token-RsG_s-IePnJb: var(--token-Sdmp--KhQpK4);
+  --plasmic-token-theme-ink: var(--token-RsG_s-IePnJb);
+  --token-7GL4piZdZYVU: var(--token-4ls5F3qKZm2e);
+  --plasmic-token-theme-primary-lower: var(--token-7GL4piZdZYVU);
+  --token-NCeD53ao7iwQ: var(--token-6F9cmr7bsWIQ);
+  --plasmic-token-theme-primary-low: var(--token-NCeD53ao7iwQ);
+  --token-KqGqd9wMike6: var(--token-JhiJaLwQ2y-b);
+  --plasmic-token-theme-primary: var(--token-KqGqd9wMike6);
+  --token-qEdkfWNQPCOz: var(--token-VAI4nJMhRmnD);
+  --plasmic-token-theme-primary-vivid: var(--token-qEdkfWNQPCOz);
+  --token-vWRtBzRhbNAz: var(--token-Sdmp--KhQpK4);
+  --plasmic-token-theme-primary-high: var(--token-vWRtBzRhbNAz);
+  --token-6q86B3BKemyr: var(--token-gGxiesmFk0qX);
+  --plasmic-token-theme-primary-higher: var(--token-6q86B3BKemyr);
+  --token-TZhrtm--gUqf: var(--token-Oi8FfsEcDwsM);
+  --plasmic-token-theme-secondary-lower: var(--token-TZhrtm--gUqf);
+  --token-BLDcDLzq8oW8: var(--token-AvuyxfReeHuV);
+  --plasmic-token-theme-secondary-low: var(--token-BLDcDLzq8oW8);
+  --token-ILQnh1Gje-7P: var(--token-GyRMQzxhxxzR);
+  --plasmic-token-theme-secondary: var(--token-ILQnh1Gje-7P);
+  --token-bh-UNs7gQuLY: var(--token-EegBDLvrJVij);
+  --plasmic-token-theme-secondary-vivid: var(--token-bh-UNs7gQuLY);
+  --token-7mbYpHS56Cfg: var(--token-cXwKdG6L2ubs);
+  --plasmic-token-theme-secondary-high: var(--token-7mbYpHS56Cfg);
+  --token-6rWSd7CKkggI: var(--token-WQBwhcMJG5tN);
+  --plasmic-token-theme-secondary-higher: var(--token-6rWSd7CKkggI);
+  --token-bkPpdkr3LPnS: var(--token-cBTvrvv_RV9D);
+  --plasmic-token-theme-accent-cool-lower: var(--token-bkPpdkr3LPnS);
+  --token--vE2qu1OWTTv: var(--token-osVdoYWQn-p7);
+  --plasmic-token-theme-accent-cool-low: var(--token--vE2qu1OWTTv);
+  --token-_YChjP_EdW23: var(--token-z88xG_sDxYjE);
+  --plasmic-token-theme-accent-cool: var(--token-_YChjP_EdW23);
+  --token-yFt1289ze8LC: var(--token-pndXJeC0mTSn);
+  --plasmic-token-theme-accent-cool-high: var(--token-yFt1289ze8LC);
+  --token-UqmdTqP87MWa: var(--token-9rvznYFLyEDz);
+  --plasmic-token-theme-accent-cool-higher: var(--token-UqmdTqP87MWa);
+  --token-ahBbmdspSnhN: var(--token-IuWsb3rH623q);
+  --plasmic-token-theme-accent-warm-low: var(--token-ahBbmdspSnhN);
+  --token--5NxthJx61-j: var(--token-b8T0skCxuJdp);
+  --plasmic-token-theme-accent-warm-lower: var(--token--5NxthJx61-j);
+  --token-LjPlFtm66m1c: var(--token-orMSbWhybTJC);
+  --plasmic-token-theme-accent-warm: var(--token-LjPlFtm66m1c);
+  --token-89wo8GOxJAIP: var(--token-E5KwAFeMYQul);
+  --plasmic-token-theme-accent-warm-high: var(--token-89wo8GOxJAIP);
+  --token-_8khzz3foob4: var(--token-PHOsUDAIFEye);
+  --plasmic-token-theme-accent-warm-higher: var(--token-_8khzz3foob4);
+  --token-MEI0Xx4Dhqfw: var(--token-V5c5q-F0ZggX);
+  --plasmic-token-theme-message-error: var(--token-MEI0Xx4Dhqfw);
+  --token-h_xYZc1T9MG9: var(--token-1rf3kBiFfscs);
+  --plasmic-token-theme-message-error-high: var(--token-h_xYZc1T9MG9);
+  --token-a9yQG16VdPRB: #13171f;
+  --plasmic-token-all-blue-warm-natural-090: var(--token-a9yQG16VdPRB);
+  --token-4ZFfXMkE8grg: #fbfcfd;
+  --plasmic-token-all-gray-cool-natural-001: var(--token-4ZFfXMkE8grg);
+  --token-FTocfm9RUjyf: #f7f9fa;
+  --plasmic-token-all-gray-cool-natural-002: var(--token-FTocfm9RUjyf);
+  --token-bwa1z0enDdp1: #f5f6f7;
+  --plasmic-token-all-gray-cool-natural-003: var(--token-bwa1z0enDdp1);
+  --token-Rz3BniMY5agK: #f1f3f6;
+  --plasmic-token-all-gray-cool-natural-004: var(--token-Rz3BniMY5agK);
+  --token-iVPeF-ZCEsKq: #fcfcfc;
+  --plasmic-token-all-gray-natural-natural-001: var(--token-iVPeF-ZCEsKq);
+  --token-Bh5S8d0SkFYI: #f9f9f9;
+  --plasmic-token-all-gray-natural-natural-002: var(--token-Bh5S8d0SkFYI);
+  --token-2E6aWv6AVSRE: #f6f6f6;
+  --plasmic-token-all-gray-natural-natural-003: var(--token-2E6aWv6AVSRE);
+  --token-k-4_G3qjoPTi: #f3f3f3;
+  --plasmic-token-all-gray-natural-natural-004: var(--token-k-4_G3qjoPTi);
+  --token-KeFmmL3X43mY: #fcfcfb;
+  --plasmic-token-all-gray-warm-natural-001: var(--token-KeFmmL3X43mY);
+  --token-Yfc0gxWC_vUO: #f9f9f7;
+  --plasmic-token-all-gray-warm-natural-002: var(--token-Yfc0gxWC_vUO);
+  --token-qTCTLuWg_-R8: #f6f6f2;
+  --plasmic-token-all-gray-warm-natural-003: var(--token-qTCTLuWg_-R8);
+  --token-C0wdWy0sN3-Q: #f5f5f0;
+  --plasmic-token-all-gray-warm-natural-004: var(--token-C0wdWy0sN3-Q);
+  --token-9lInobP5nB3w: #1a1f1a;
+  --plasmic-token-all-green-cool-natural-090: var(--token-9lInobP5nB3w);
+  --token-jXywaHwEiKAt: var(--token-4Z793Elv33rn);
+  --plasmic-token-brand-primary-005: var(--token-jXywaHwEiKAt);
+  --token-wnVNSIVpHxTa: var(--token-xXI7YRSuYOg4);
+  --plasmic-token-brand-secondary-005: var(--token-wnVNSIVpHxTa);
+  --token-wmeDE0-02woN: var(--token-5b0RFMTSA2lK);
+  --plasmic-token-theme-message-success: var(--token-wmeDE0-02woN);
+  --token-K2_WqrvTdRrq: var(--token-Sek0YBmy7nde);
+  --plasmic-token-theme-message-info: var(--token-K2_WqrvTdRrq);
+  --token-YWSm303WuI6L: var(--token-99a8hTO_btW-);
+  --plasmic-token-theme-message-warning: var(--token-YWSm303WuI6L);
+  --token-tJfX-Pl60yGx: var(--token-AxkCErx6LVfU);
+  --plasmic-token-theme-message-error-low: var(--token-tJfX-Pl60yGx);
+  --token-Bl9ptSrM6lEB: var(--token-5vJXCL3fF60C);
+  --plasmic-token-theme-message-info-low: var(--token-Bl9ptSrM6lEB);
+  --token-XA7lK8FKyjR4: var(--token-SjPapEQlZLmk);
+  --plasmic-token-theme-message-info-high: var(--token-XA7lK8FKyjR4);
+  --token-mMAdSMXPq1r3: var(--token-RHgKI2Jl341k);
+  --plasmic-token-theme-message-success-high: var(--token-mMAdSMXPq1r3);
+  --token-jNtvzJ9Vaqww: var(--token-aJFQBDq7JNFA);
+  --plasmic-token-theme-message-success-low: var(--token-jNtvzJ9Vaqww);
+  --token-FSphv2jlZ0iQ: var(--token-jI7FpFvuamFc);
+  --plasmic-token-theme-message-warning-low: var(--token-FSphv2jlZ0iQ);
+  --token-RIpQ7FvZN8D_: var(--token-1p__d49b0j51);
+  --plasmic-token-theme-message-warning-high: var(--token-RIpQ7FvZN8D_);
+  --token-w2jQlR6cesbn: var(--token-7GL4piZdZYVU);
+  --plasmic-token-component-background-theme-primary: var(--token-w2jQlR6cesbn);
+  --token-fCV7Ohf1zzlZ: var(--token-TZhrtm--gUqf);
+  --plasmic-token-component-background-theme-secondary: var(
+    --token-fCV7Ohf1zzlZ
+  );
+  --token-RIBhZewb_mnT: var(--token-bkPpdkr3LPnS);
+  --plasmic-token-component-background-theme-accent-cool: var(
+    --token-RIBhZewb_mnT
+  );
+  --token-A7oBpS_cF6SC: var(--token--5NxthJx61-j);
+  --plasmic-token-component-background-theme-accent-warm: var(
+    --token-A7oBpS_cF6SC
+  );
+  --token-_bHu0OmKb1Ef: var(--token-qEdkfWNQPCOz);
+  --plasmic-token-component-interaction-hover-background-primary: var(
+    --token-_bHu0OmKb1Ef
+  );
+  --token-LTJtLzxNezBY: var(--token-vWRtBzRhbNAz);
+  --plasmic-token-component-interaction-active-background-primary: var(
+    --token-LTJtLzxNezBY
+  );
+  --token-Q9Ffb9UUpCHP: var(--token-KqGqd9wMike6);
+  --plasmic-token-component-interaction-enabled-background-primary: var(
+    --token-Q9Ffb9UUpCHP
+  );
+  --token-xjJUxNSKr2p-: var(--token-KqGqd9wMike6);
+  --plasmic-token-component-interaction-focus-background-primary: var(
+    --token-xjJUxNSKr2p-
+  );
+  --token-DuqTAjlJ3rCy: var(--token-7GL4piZdZYVU);
+  --plasmic-token-component-interaction-active-font-primary: var(
+    --token-DuqTAjlJ3rCy
+  );
+  --token-egk1Tr6HIZNF: var(--token-pOKp8Xs8pwnR);
+  --plasmic-token-component-disabled-text: var(--token-egk1Tr6HIZNF);
+  --token-3Su_j9fahhF-: var(--token-7GL4piZdZYVU);
+  --plasmic-token-component-interaction-enabled-font-primary: var(
+    --token-3Su_j9fahhF-
+  );
+  --token-6WLr3sCFwWJT: var(--token-7GL4piZdZYVU);
+  --plasmic-token-component-interaction-focus-font-primary: var(
+    --token-6WLr3sCFwWJT
+  );
+  --token-Vur6cY6SmZDg: var(--token-7GL4piZdZYVU);
+  --plasmic-token-component-interaction-hover-font-primary: var(
+    --token-Vur6cY6SmZDg
+  );
+  --token-pOKp8Xs8pwnR: var(--token-jXywaHwEiKAt);
+  --plasmic-token-theme-ink-low: var(--token-pOKp8Xs8pwnR);
+  --token-MKHmtYEXPVVA: var(--token-gGxiesmFk0qX);
+  --plasmic-token-theme-ink-high: var(--token-MKHmtYEXPVVA);
+  --token-m36MPjikdYOw: #ffffff;
+  --plasmic-token-unnamed-style-token: var(--token-m36MPjikdYOw);
+  --token-A_tmXMfiA-Dg: var(--token-u7Ybpc35M2oV);
+  --plasmic-token-theme-base-bottom: var(--token-A_tmXMfiA-Dg);
+  --token-AxX2D1FoaUhd: #ffffff;
+  --plasmic-token-unnamed-style-token-2: var(--token-AxX2D1FoaUhd);
+  --token-SnVf9d9jT-aP: #1b1b1b;
+  --plasmic-token-theme-ink-2: var(--token-SnVf9d9jT-aP);
+  --token-Kq7t5lhznWrS: #757575;
+  --plasmic-token-theme-message-disabled: var(--token-Kq7t5lhznWrS);
+  --token-sSnWAGMI_ZfX: #454545;
+  --plasmic-token-theme-message-disabled-high: var(--token-sSnWAGMI_ZfX);
+  --token-Vt6_Xm38C_6u: #c9c9c9;
+  --plasmic-token-theme-message-disabled-lower: var(--token-Vt6_Xm38C_6u);
+  --token-FKyPAKjqQflI: #d54309;
+  --plasmic-token-theme-message-error-2: var(--token-FKyPAKjqQflI);
+  --token-2UWtn8I2jqml: #719f2a;
+  --plasmic-token-theme-message-success-2: var(--token-2UWtn8I2jqml);
+  --token-HtPnP6TE2vpj: #ffbe2e;
+  --plasmic-token-theme-message-warning-2: var(--token-HtPnP6TE2vpj);
+  --token-kj5gaXHp_ml-: #00bde3;
+  --plasmic-token-theme-message-info-2: var(--token-kj5gaXHp_ml-);
+  --token-04CwsVfhGB5P: #005ea2;
+  --plasmic-token-theme-primary-2: var(--token-04CwsVfhGB5P);
+  --token-EGA9SllWSpMQ: #e41d3d;
+  --plasmic-token-theme-secondary-2: var(--token-EGA9SllWSpMQ);
+  --token-TLPvzCW582RS: #00bde3;
+  --plasmic-token-theme-accent-cool-2: var(--token-TLPvzCW582RS);
+  --token-Ix8RwrhKpywT: #fa9441;
+  --plasmic-token-theme-accent-warm-2: var(--token-Ix8RwrhKpywT);
+  --token-F-A5llqpK1f8: #98d035;
+  --plasmic-token-theme-message-success-low-2: var(--token-F-A5llqpK1f8);
+  --token-WakkEBPANyzy: #243413;
+  --plasmic-token-theme-message-success-higher: var(--token-WakkEBPANyzy);
+  --token-JbaHrDf_phfV: #faf3d1;
+  --plasmic-token-theme-message-warning-lower: var(--token-JbaHrDf_phfV);
+  --token-NiclNkpdpOj_: #936f38;
+  --plasmic-token-theme-message-warning-higher: var(--token-NiclNkpdpOj_);
+  --token-pbVZQsvC12fC: #6f3331;
+  --plasmic-token-theme-message-error-higher: var(--token-pbVZQsvC12fC);
+  --token-iiDHm0VuQka4: #f4e3db;
+  --plasmic-token-theme-message-error-lower: var(--token-iiDHm0VuQka4);
+  --token-ouVFiyr_T8wx: #2e6276;
+  --plasmic-token-theme-message-info-higher: var(--token-ouVFiyr_T8wx);
+  --token-D0zHSXX60_WQ: #e7f6f8;
+  --plasmic-token-theme-message-info-lower: var(--token-D0zHSXX60_WQ);
+  --token-vO-J8Idh5y3t: #162e51;
+  --plasmic-token-theme-primary-higher-2: var(--token-vO-J8Idh5y3t);
+  --token-AMPL4c2lISka: #d9e8f6;
+  --plasmic-token-theme-primary-lower-2: var(--token-AMPL4c2lISka);
+  --token-8cj60xfxiE4k: #8b0a03;
+  --plasmic-token-theme-secondary-higher-2: var(--token-8cj60xfxiE4k);
+  --token-eTFhyQzcNn1m: #f8dfe2;
+  --plasmic-token-theme-secondary-lower-2: var(--token-eTFhyQzcNn1m);
+  --token-74-HOdhBA4i6: #775540;
+  --plasmic-token-theme-accent-warm-higher-2: var(--token-74-HOdhBA4i6);
+  --token-8QZhhgkKVCM_: #f2e4d4;
+  --plasmic-token-theme-accent-warm-lower-2: var(--token-8QZhhgkKVCM_);
+  --token-ZV2MNaODdCA8: #e1f3f8;
+  --plasmic-token-theme-accent-cool-lower-2: var(--token-ZV2MNaODdCA8);
+  --token-y0EZkIJt8yHs: #07648d;
+  --plasmic-token-theme-accent-cool-higher-2: var(--token-y0EZkIJt8yHs);
+  --token-SXaj40Hl0UeR: #0091ff;
+  --plasmic-token-blue: var(--token-SXaj40Hl0UeR);
+  --token-GQVLjMBC1Pjd: #fb5a47;
+  --plasmic-token-red: var(--token-GQVLjMBC1Pjd);
+  --token-cRaE5fFjhgLK: #ffbe2e;
+  --plasmic-token-yellow: var(--token-cRaE5fFjhgLK);
+  --token-Il4IVQ8TU0QK: #98d035;
+  --plasmic-token-green: var(--token-Il4IVQ8TU0QK);
+  --token-cpEY3e6171qe: #ddf9c7;
+  --plasmic-token-theme-message-success-lower: var(--token-cpEY3e6171qe);
+  --token-_jJ7zUAU76iv: #1b1b1b;
+  --plasmic-token-theme-message-disabled-higher: var(--token-_jJ7zUAU76iv);
+  --token-YL-d-3FLazBu: 12px;
+  --plasmic-token-spacing-0200: var(--token-YL-d-3FLazBu);
+  --token-pSSRrvbkJb8O: 16px;
+  --plasmic-token-spacing-0300: var(--token-pSSRrvbkJb8O);
+  --token-_XSpBDvLlCE0: #ffffff;
+  --plasmic-token-gray-0050: var(--token-_XSpBDvLlCE0);
+  --token-dWEYSs9InX6H: 8px;
+  --plasmic-token-spacing-0100: var(--token-dWEYSs9InX6H);
+  --token-ejugPEA2EDHY: 24px;
+  --plasmic-token-spacing-0400: var(--token-ejugPEA2EDHY);
+  --token-fDvGkhT0XLXm: #ff7c65;
+  --plasmic-token-red-0600: var(--token-fDvGkhT0XLXm);
+  --token-ie6hWrfzgQyZ: #d5d5d5;
+  --plasmic-token-gray-0300: var(--token-ie6hWrfzgQyZ);
+  --token-LFix4NECrn7r: #222222;
+  --plasmic-token-gray-0800: var(--token-LFix4NECrn7r);
+  --token-28s5DTd61iVN: #909090;
+  --plasmic-token-gray-0500: var(--token-28s5DTd61iVN);
+  --token-pXUN8amh6tap: #e6e6e6;
+  --plasmic-token-gray-0200: var(--token-pXUN8amh6tap);
+  --token-bZTenwCJN6MW: 32px;
+  --plasmic-token-spacing-0500: var(--token-bZTenwCJN6MW);
+  --token-kxvUVgfbGTEI: 64px;
+  --plasmic-token-spacing-0800: var(--token-kxvUVgfbGTEI);
+  --token-mFHv2VQsYmaE: #ffffff;
+  --plasmic-token-gray-51: var(--token-mFHv2VQsYmaE);
+  --token-mpwMp-93jtCD: #ff7c65;
+  --plasmic-token-red-601: var(--token-mpwMp-93jtCD);
+  --token-oQI-NNI9ICRb: #d5d5d5;
+  --plasmic-token-gray-301: var(--token-oQI-NNI9ICRb);
+  --token-Cmcd-prWYs7-: #222222;
+  --plasmic-token-gray-801: var(--token-Cmcd-prWYs7-);
+  --token-kTQBL2Ss9Ak2: #909090;
+  --plasmic-token-gray-501: var(--token-kTQBL2Ss9Ak2);
+  --token-Zunh-0CHy9zL: #e6e6e6;
+  --plasmic-token-gray-201: var(--token-Zunh-0CHy9zL);
+}
+
+.plasmic_tokens:where(.global_theme3_dark) {
+  --token-mFHv2VQsYmaE: #1d1d1d;
+  --plasmic-token-gray-51: var(--token-mFHv2VQsYmaE);
+  --token-mpwMp-93jtCD: #ea3829;
+  --plasmic-token-red-601: var(--token-mpwMp-93jtCD);
+  --token-oQI-NNI9ICRb: #545454;
+  --plasmic-token-gray-301: var(--token-oQI-NNI9ICRb);
+  --token-Cmcd-prWYs7-: #ebebeb;
+  --plasmic-token-gray-801: var(--token-Cmcd-prWYs7-);
+  --token-kTQBL2Ss9Ak2: #909090;
+  --plasmic-token-gray-501: var(--token-kTQBL2Ss9Ak2);
+  --token-Zunh-0CHy9zL: #3f3f3f;
+  --plasmic-token-gray-201: var(--token-Zunh-0CHy9zL);
+}
+
+.plasmic_tokens {
+  --plsmc-standard-width: 800px;
+  --plsmc-wide-width: 1280px;
+  --plsmc-viewport-gap: 16px;
+  --plsmc-wide-chunk: calc(
+    ((var(--plsmc-wide-width) - var(--plsmc-standard-width)) / 2) -
+      var(--plsmc-viewport-gap)
+  );
+}
+
+.plasmic_default_styles,
+.plasmic_default_styles:where(
+    .global_unnamedGlobalGroupOfVariants3_unnamedVariant
+  ),
+.plasmic_default_styles:where(
+    .global_unnamedGlobalGroupOfVariants4_unnamedVariant
+  ),
+.plasmic_default_styles:where(.global_theme3_dark),
+.plasmic_default_styles:where(.global_theme3_darkest) {
+  --mixin-dfR2AUXsEoqT_text-decoration-line: none;
+  --mixin-dfR2AUXsEoqT_color: var(--token-RsG_s-IePnJb);
+  --mixin-dfR2AUXsEoqT_font-family: var(--token-2HUz1vpv9Q3m);
+  --mixin-dfR2AUXsEoqT_font-size: var(--token-DWgur3SC2Txw);
+  --mixin-dfR2AUXsEoqT_line-height: var(--token-IdOqQrE893ud);
+  --mixin-dfR2AUXsEoqT_white-space: pre-wrap;
+  --mixin-ld4iE0VKX59m_white-space: pre-wrap;
+  --mixin-zZC5qwHlYRHS_font-family: var(--token-Lueu1te1eGIx);
+  --mixin-zZC5qwHlYRHS_color: var(--token-djSUyPcqwQ9X);
+  --mixin-zZC5qwHlYRHS_font-size: var(--token-xNOmghSdDLjv);
+  --mixin-zZC5qwHlYRHS_font-weight: 900;
+  --mixin-zZC5qwHlYRHS_letter-spacing: -4px;
+  --mixin-zZC5qwHlYRHS_line-height: 1;
+  --mixin-zZC5qwHlYRHS_white-space: pre-wrap;
+  --mixin-JP3DJQlUmDy__font-family: var(--token-Lueu1te1eGIx);
+  --mixin-JP3DJQlUmDy__color: var(--token-djSUyPcqwQ9X);
+  --mixin-JP3DJQlUmDy__font-size: var(--token-ir-X2bRwhKhs);
+  --mixin-JP3DJQlUmDy__font-weight: 700;
+  --mixin-JP3DJQlUmDy__letter-spacing: -0.8px;
+  --mixin-JP3DJQlUmDy__line-height: 1.2;
+  --mixin-JP3DJQlUmDy__white-space: pre-wrap;
+  --mixin-pwuNCd0MsQEB_font-family: var(--token-Lueu1te1eGIx);
+  --mixin-pwuNCd0MsQEB_color: var(--token-djSUyPcqwQ9X);
+  --mixin-pwuNCd0MsQEB_font-size: var(--token-BbEk6opUYWxk);
+  --mixin-pwuNCd0MsQEB_font-weight: 600;
+  --mixin-pwuNCd0MsQEB_letter-spacing: -0.5px;
+  --mixin-pwuNCd0MsQEB_line-height: 1.3;
+  --mixin-pwuNCd0MsQEB_white-space: pre-wrap;
+  --mixin-sDPVEhZQs0i__font-family: var(--token-Lueu1te1eGIx);
+  --mixin-sDPVEhZQs0i__color: var(--token-ngoCOQGpHKaZ);
+  --mixin-sDPVEhZQs0i__font-size: var(--token-DWgur3SC2Txw);
+  --mixin-sDPVEhZQs0i__font-weight: 700;
+  --mixin-sDPVEhZQs0i__letter-spacing: -0.3px;
+  --mixin-sDPVEhZQs0i__line-height: 1.5;
+  --mixin-sDPVEhZQs0i__white-space: pre-wrap;
+  --mixin-TDXFOzrvELIX_font-family: var(--token-Lueu1te1eGIx);
+  --mixin-TDXFOzrvELIX_color: var(--token-ngoCOQGpHKaZ);
+  --mixin-TDXFOzrvELIX_font-size: var(--token--d67dbMUGfHy);
+  --mixin-TDXFOzrvELIX_font-weight: 600;
+  --mixin-TDXFOzrvELIX_line-height: 1.5;
+  --mixin-TDXFOzrvELIX_white-space: pre-wrap;
+  --mixin-_vHG8CdJAAUo_border-left-color: #dddddd;
+  --mixin-_vHG8CdJAAUo_border-left-style: solid;
+  --mixin-_vHG8CdJAAUo_border-left-width: 3px;
+  --mixin-_vHG8CdJAAUo_color: #888888;
+  --mixin-_vHG8CdJAAUo_padding-left: 10px;
+  --mixin-_vHG8CdJAAUo_white-space: pre-wrap;
+  --mixin-Z4veYZRrN9er_background: linear-gradient(#f8f8f8, #f8f8f8);
+  --mixin-Z4veYZRrN9er_border-bottom-color: #dddddd;
+  --mixin-Z4veYZRrN9er_border-bottom-style: solid;
+  --mixin-Z4veYZRrN9er_border-bottom-width: 1px;
+  --mixin-Z4veYZRrN9er_border-left-color: #dddddd;
+  --mixin-Z4veYZRrN9er_border-left-style: solid;
+  --mixin-Z4veYZRrN9er_border-left-width: 1px;
+  --mixin-Z4veYZRrN9er_border-right-color: #dddddd;
+  --mixin-Z4veYZRrN9er_border-right-style: solid;
+  --mixin-Z4veYZRrN9er_border-right-width: 1px;
+  --mixin-Z4veYZRrN9er_border-top-color: #dddddd;
+  --mixin-Z4veYZRrN9er_border-top-style: solid;
+  --mixin-Z4veYZRrN9er_border-top-width: 1px;
+  --mixin-Z4veYZRrN9er_border-bottom-left-radius: 3px;
+  --mixin-Z4veYZRrN9er_border-bottom-right-radius: 3px;
+  --mixin-Z4veYZRrN9er_border-top-left-radius: 3px;
+  --mixin-Z4veYZRrN9er_border-top-right-radius: 3px;
+  --mixin-Z4veYZRrN9er_font-family: "Inconsolata";
+  --mixin-Z4veYZRrN9er_padding-bottom: 1px;
+  --mixin-Z4veYZRrN9er_padding-left: 4px;
+  --mixin-Z4veYZRrN9er_padding-right: 4px;
+  --mixin-Z4veYZRrN9er_padding-top: 1px;
+  --mixin-Z4veYZRrN9er_white-space: pre-wrap;
+  --mixin-PMHZJbACPOuL_background: linear-gradient(#f8f8f8, #f8f8f8);
+  --mixin-PMHZJbACPOuL_border-bottom-color: #dddddd;
+  --mixin-PMHZJbACPOuL_border-bottom-style: solid;
+  --mixin-PMHZJbACPOuL_border-bottom-width: 1px;
+  --mixin-PMHZJbACPOuL_border-left-color: #dddddd;
+  --mixin-PMHZJbACPOuL_border-left-style: solid;
+  --mixin-PMHZJbACPOuL_border-left-width: 1px;
+  --mixin-PMHZJbACPOuL_border-right-color: #dddddd;
+  --mixin-PMHZJbACPOuL_border-right-style: solid;
+  --mixin-PMHZJbACPOuL_border-right-width: 1px;
+  --mixin-PMHZJbACPOuL_border-top-color: #dddddd;
+  --mixin-PMHZJbACPOuL_border-top-style: solid;
+  --mixin-PMHZJbACPOuL_border-top-width: 1px;
+  --mixin-PMHZJbACPOuL_border-bottom-left-radius: 3px;
+  --mixin-PMHZJbACPOuL_border-bottom-right-radius: 3px;
+  --mixin-PMHZJbACPOuL_border-top-left-radius: 3px;
+  --mixin-PMHZJbACPOuL_border-top-right-radius: 3px;
+  --mixin-PMHZJbACPOuL_font-family: "Inconsolata";
+  --mixin-PMHZJbACPOuL_padding-bottom: 3px;
+  --mixin-PMHZJbACPOuL_padding-left: 6px;
+  --mixin-PMHZJbACPOuL_padding-right: 6px;
+  --mixin-PMHZJbACPOuL_padding-top: 3px;
+  --mixin-PMHZJbACPOuL_white-space: pre-wrap;
+  --mixin-mQ3lFblRhVj8_display: flex;
+  --mixin-mQ3lFblRhVj8_flex-direction: column;
+  --mixin-mQ3lFblRhVj8_align-items: stretch;
+  --mixin-mQ3lFblRhVj8_justify-content: flex-start;
+  --mixin-mQ3lFblRhVj8_list-style-position: outside;
+  --mixin-mQ3lFblRhVj8_padding-left: 40px;
+  --mixin-mQ3lFblRhVj8_position: relative;
+  --mixin-mQ3lFblRhVj8_list-style-type: decimal;
+  --mixin-mQ3lFblRhVj8_white-space: pre-wrap;
+  --mixin-VhpFwX8v1c6S_display: flex;
+  --mixin-VhpFwX8v1c6S_flex-direction: column;
+  --mixin-VhpFwX8v1c6S_align-items: stretch;
+  --mixin-VhpFwX8v1c6S_justify-content: flex-start;
+  --mixin-VhpFwX8v1c6S_list-style-position: outside;
+  --mixin-VhpFwX8v1c6S_padding-left: 40px;
+  --mixin-VhpFwX8v1c6S_position: relative;
+  --mixin-VhpFwX8v1c6S_list-style-type: disc;
+  --mixin-VhpFwX8v1c6S_white-space: pre-wrap;
+  --mixin-XvbchyFgwzrf_font-size: var(--token-uUunIq-mT5HV);
+  --mixin-XvbchyFgwzrf_color: var(--token-djSUyPcqwQ9X);
+  --mixin-XvbchyFgwzrf_font-weight: 800;
+  --mixin-XvbchyFgwzrf_font-family: var(--token-Lueu1te1eGIx);
+  --mixin-XvbchyFgwzrf_white-space: pre-wrap;
+}
+
+.plasmic_mixins,
+.plasmic_mixins:where(.global_unnamedGlobalGroupOfVariants3_unnamedVariant),
+.plasmic_mixins:where(.global_unnamedGlobalGroupOfVariants4_unnamedVariant),
+.plasmic_mixins:where(.global_theme3_dark),
+.plasmic_mixins:where(.global_theme3_darkest) {
+  --mixin-Uk2IXvig0ZE7_white-space: pre-wrap;
+  --plasmic-mixin-z-index-top_white-space: var(
+    --mixin-Uk2IXvig0ZE7_white-space
+  );
+  --mixin-TFWlTdfNLnoH_white-space: pre-wrap;
+  --plasmic-mixin-z-index-500_white-space: var(
+    --mixin-TFWlTdfNLnoH_white-space
+  );
+  --mixin-fchfTcCcIiGC_white-space: pre-wrap;
+  --plasmic-mixin-z-index-400_white-space: var(
+    --mixin-fchfTcCcIiGC_white-space
+  );
+  --mixin-3CoHEnKCTcjY_white-space: pre-wrap;
+  --plasmic-mixin-z-index-300_white-space: var(
+    --mixin-3CoHEnKCTcjY_white-space
+  );
+  --mixin-THlp3Tofz-xe_white-space: pre-wrap;
+  --plasmic-mixin-z-index-200_white-space: var(
+    --mixin-THlp3Tofz-xe_white-space
+  );
+  --mixin-r2UU_nTTrjPH_white-space: pre-wrap;
+  --plasmic-mixin-z-index-100_white-space: var(
+    --mixin-r2UU_nTTrjPH_white-space
+  );
+  --mixin-W6GyDdWA1aMd_white-space: pre-wrap;
+  --plasmic-mixin-disabled_white-space: var(--mixin-W6GyDdWA1aMd_white-space);
+  --mixin-phjh9Cr7U214_white-space: pre-wrap;
+  --plasmic-mixin-corners_white-space: var(--mixin-phjh9Cr7U214_white-space);
+  --mixin-Ypru3kw2q0zZ_white-space: pre-wrap;
+  --plasmic-mixin-default-vertical-row-gap_white-space: var(
+    --mixin-Ypru3kw2q0zZ_white-space
+  );
+  --mixin-4reh27hCdtzu_white-space: pre-wrap;
+  --plasmic-mixin-default-horizontal-row-gap_white-space: var(
+    --mixin-4reh27hCdtzu_white-space
+  );
+  --mixin-N9kKe-y2v3Nv_white-space: pre-wrap;
+  --plasmic-mixin-nav_white-space: var(--mixin-N9kKe-y2v3Nv_white-space);
+}
+
+:where(.all) {
+  display: block;
+  white-space: inherit;
+  grid-row: auto;
+  grid-column: auto;
+  position: relative;
+  background: none;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-shadow: none;
+  box-sizing: border-box;
+  text-decoration-line: none;
+  margin: 0;
+  border-width: 0px;
+}
+:where(.__wab_expr_html_text *) {
+  white-space: inherit;
+  grid-row: auto;
+  grid-column: auto;
+  background: none;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-shadow: none;
+  box-sizing: border-box;
+  text-decoration-line: none;
+  margin: 0;
+  border-width: 0px;
+}
+
+:where(.img) {
+  display: inline-block;
+}
+:where(.__wab_expr_html_text img) {
+  white-space: inherit;
+}
+
+:where(.li) {
+  display: list-item;
+}
+:where(.__wab_expr_html_text li) {
+  white-space: inherit;
+}
+
+:where(.span) {
+  display: inline;
+  position: static;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+}
+:where(.__wab_expr_html_text span) {
+  white-space: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+}
+
+:where(.input) {
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+  background-image: linear-gradient(#ffffff, #ffffff);
+  padding: 2px;
+  border: 1px solid lightgray;
+}
+:where(.__wab_expr_html_text input) {
+  white-space: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+  background-image: linear-gradient(#ffffff, #ffffff);
+  padding: 2px;
+  border: 1px solid lightgray;
+}
+
+:where(.textarea) {
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+  padding: 2px;
+  border: 1px solid lightgray;
+}
+:where(.__wab_expr_html_text textarea) {
+  white-space: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+  padding: 2px;
+  border: 1px solid lightgray;
+}
+
+:where(.button) {
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+  background-image: none;
+  align-items: flex-start;
+  text-align: center;
+  padding: 2px 6px;
+  border: 1px solid lightgray;
+}
+:where(.__wab_expr_html_text button) {
+  white-space: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+  background-image: none;
+  align-items: flex-start;
+  text-align: center;
+  padding: 2px 6px;
+  border: 1px solid lightgray;
+}
+
+:where(.code) {
+  font-family: inherit;
+  line-height: inherit;
+}
+:where(.__wab_expr_html_text code) {
+  white-space: inherit;
+  font-family: inherit;
+  line-height: inherit;
+}
+
+:where(.pre) {
+  font-family: inherit;
+  line-height: inherit;
+}
+:where(.__wab_expr_html_text pre) {
+  white-space: inherit;
+  font-family: inherit;
+  line-height: inherit;
+}
+
+:where(.p) {
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+}
+:where(.__wab_expr_html_text p) {
+  white-space: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+}
+
+:where(.h1) {
+  font-size: inherit;
+  font-weight: inherit;
+}
+:where(.__wab_expr_html_text h1) {
+  white-space: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+:where(.h2) {
+  font-size: inherit;
+  font-weight: inherit;
+}
+:where(.__wab_expr_html_text h2) {
+  white-space: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+:where(.h3) {
+  font-size: inherit;
+  font-weight: inherit;
+}
+:where(.__wab_expr_html_text h3) {
+  white-space: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+:where(.h4) {
+  font-size: inherit;
+  font-weight: inherit;
+}
+:where(.__wab_expr_html_text h4) {
+  white-space: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+:where(.h5) {
+  font-size: inherit;
+  font-weight: inherit;
+}
+:where(.__wab_expr_html_text h5) {
+  white-space: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+:where(.h6) {
+  font-size: inherit;
+  font-weight: inherit;
+}
+:where(.__wab_expr_html_text h6) {
+  white-space: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+:where(.address) {
+  font-style: inherit;
+}
+:where(.__wab_expr_html_text address) {
+  white-space: inherit;
+  font-style: inherit;
+}
+
+:where(.a) {
+  color: inherit;
+}
+:where(.__wab_expr_html_text a) {
+  white-space: inherit;
+  color: inherit;
+}
+
+:where(.ol) {
+  list-style-type: none;
+  padding: 0;
+}
+:where(.__wab_expr_html_text ol) {
+  white-space: inherit;
+  list-style-type: none;
+  padding: 0;
+}
+
+:where(.ul) {
+  list-style-type: none;
+  padding: 0;
+}
+:where(.__wab_expr_html_text ul) {
+  white-space: inherit;
+  list-style-type: none;
+  padding: 0;
+}
+
+:where(.select) {
+  padding: 2px 6px;
+}
+:where(.__wab_expr_html_text select) {
+  white-space: inherit;
+  padding: 2px 6px;
+}
+
+.plasmic_default__component_wrapper {
+  display: grid;
+}
+.plasmic_default__inline {
+  display: inline;
+}
+.plasmic_page_wrapper {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  align-items: stretch;
+  align-self: start;
+}
+.plasmic_page_wrapper > * {
+  height: auto !important;
+}
+.__wab_expr_html_text {
+  white-space: normal;
+}
+:where(.root_reset) {
+  font-family: var(--mixin-dfR2AUXsEoqT_font-family);
+  font-size: var(--mixin-dfR2AUXsEoqT_font-size);
+  color: var(--mixin-dfR2AUXsEoqT_color);
+  line-height: var(--mixin-dfR2AUXsEoqT_line-height);
+  white-space: var(--mixin-dfR2AUXsEoqT_white-space);
+}
+
+:where(.root_reset) a:where(.a),
+a:where(.root_reset.a),
+:where(.root_reset .__wab_expr_html_text) a,
+:where(.root_reset_tags) a,
+a:where(.root_reset_tags) {
+}
+
+:where(.root_reset) h1:where(.h1),
+h1:where(.root_reset.h1),
+:where(.root_reset .__wab_expr_html_text) h1,
+:where(.root_reset_tags) h1,
+h1:where(.root_reset_tags) {
+  font-family: var(--mixin-zZC5qwHlYRHS_font-family);
+  color: var(--mixin-zZC5qwHlYRHS_color);
+  font-size: var(--mixin-zZC5qwHlYRHS_font-size);
+  font-weight: var(--mixin-zZC5qwHlYRHS_font-weight);
+  letter-spacing: var(--mixin-zZC5qwHlYRHS_letter-spacing);
+  line-height: var(--mixin-zZC5qwHlYRHS_line-height);
+}
+
+:where(.root_reset) h3:where(.h3),
+h3:where(.root_reset.h3),
+:where(.root_reset .__wab_expr_html_text) h3,
+:where(.root_reset_tags) h3,
+h3:where(.root_reset_tags) {
+  font-family: var(--mixin-JP3DJQlUmDy__font-family);
+  color: var(--mixin-JP3DJQlUmDy__color);
+  font-size: var(--mixin-JP3DJQlUmDy__font-size);
+  font-weight: var(--mixin-JP3DJQlUmDy__font-weight);
+  letter-spacing: var(--mixin-JP3DJQlUmDy__letter-spacing);
+  line-height: var(--mixin-JP3DJQlUmDy__line-height);
+}
+
+:where(.root_reset) h4:where(.h4),
+h4:where(.root_reset.h4),
+:where(.root_reset .__wab_expr_html_text) h4,
+:where(.root_reset_tags) h4,
+h4:where(.root_reset_tags) {
+  font-family: var(--mixin-pwuNCd0MsQEB_font-family);
+  color: var(--mixin-pwuNCd0MsQEB_color);
+  font-size: var(--mixin-pwuNCd0MsQEB_font-size);
+  font-weight: var(--mixin-pwuNCd0MsQEB_font-weight);
+  letter-spacing: var(--mixin-pwuNCd0MsQEB_letter-spacing);
+  line-height: var(--mixin-pwuNCd0MsQEB_line-height);
+}
+
+:where(.root_reset) h5:where(.h5),
+h5:where(.root_reset.h5),
+:where(.root_reset .__wab_expr_html_text) h5,
+:where(.root_reset_tags) h5,
+h5:where(.root_reset_tags) {
+  font-family: var(--mixin-sDPVEhZQs0i__font-family);
+  color: var(--mixin-sDPVEhZQs0i__color);
+  font-size: var(--mixin-sDPVEhZQs0i__font-size);
+  font-weight: var(--mixin-sDPVEhZQs0i__font-weight);
+  letter-spacing: var(--mixin-sDPVEhZQs0i__letter-spacing);
+  line-height: var(--mixin-sDPVEhZQs0i__line-height);
+}
+
+:where(.root_reset) h6:where(.h6),
+h6:where(.root_reset.h6),
+:where(.root_reset .__wab_expr_html_text) h6,
+:where(.root_reset_tags) h6,
+h6:where(.root_reset_tags) {
+  font-family: var(--mixin-TDXFOzrvELIX_font-family);
+  color: var(--mixin-TDXFOzrvELIX_color);
+  font-size: var(--mixin-TDXFOzrvELIX_font-size);
+  font-weight: var(--mixin-TDXFOzrvELIX_font-weight);
+  line-height: var(--mixin-TDXFOzrvELIX_line-height);
+}
+
+:where(.root_reset) blockquote:where(.blockquote),
+blockquote:where(.root_reset.blockquote),
+:where(.root_reset .__wab_expr_html_text) blockquote,
+:where(.root_reset_tags) blockquote,
+blockquote:where(.root_reset_tags) {
+  color: var(--mixin-_vHG8CdJAAUo_color);
+  padding-left: var(--mixin-_vHG8CdJAAUo_padding-left);
+  border-left: var(--mixin-_vHG8CdJAAUo_border-left-width)
+    var(--mixin-_vHG8CdJAAUo_border-left-style)
+    var(--mixin-_vHG8CdJAAUo_border-left-color);
+}
+
+:where(.root_reset) code:where(.code),
+code:where(.root_reset.code),
+:where(.root_reset .__wab_expr_html_text) code,
+:where(.root_reset_tags) code,
+code:where(.root_reset_tags) {
+  background: #f8f8f8;
+  font-family: var(--mixin-Z4veYZRrN9er_font-family);
+  border-radius: var(--mixin-Z4veYZRrN9er_border-top-left-radius)
+    var(--mixin-Z4veYZRrN9er_border-top-right-radius)
+    var(--mixin-Z4veYZRrN9er_border-bottom-right-radius)
+    var(--mixin-Z4veYZRrN9er_border-bottom-left-radius);
+  padding: var(--mixin-Z4veYZRrN9er_padding-top)
+    var(--mixin-Z4veYZRrN9er_padding-right)
+    var(--mixin-Z4veYZRrN9er_padding-bottom)
+    var(--mixin-Z4veYZRrN9er_padding-left);
+  border-top: var(--mixin-Z4veYZRrN9er_border-top-width)
+    var(--mixin-Z4veYZRrN9er_border-top-style)
+    var(--mixin-Z4veYZRrN9er_border-top-color);
+  border-right: var(--mixin-Z4veYZRrN9er_border-right-width)
+    var(--mixin-Z4veYZRrN9er_border-right-style)
+    var(--mixin-Z4veYZRrN9er_border-right-color);
+  border-bottom: var(--mixin-Z4veYZRrN9er_border-bottom-width)
+    var(--mixin-Z4veYZRrN9er_border-bottom-style)
+    var(--mixin-Z4veYZRrN9er_border-bottom-color);
+  border-left: var(--mixin-Z4veYZRrN9er_border-left-width)
+    var(--mixin-Z4veYZRrN9er_border-left-style)
+    var(--mixin-Z4veYZRrN9er_border-left-color);
+}
+
+:where(.root_reset) pre:where(.pre),
+pre:where(.root_reset.pre),
+:where(.root_reset .__wab_expr_html_text) pre,
+:where(.root_reset_tags) pre,
+pre:where(.root_reset_tags) {
+  background: #f8f8f8;
+  font-family: var(--mixin-PMHZJbACPOuL_font-family);
+  border-radius: var(--mixin-PMHZJbACPOuL_border-top-left-radius)
+    var(--mixin-PMHZJbACPOuL_border-top-right-radius)
+    var(--mixin-PMHZJbACPOuL_border-bottom-right-radius)
+    var(--mixin-PMHZJbACPOuL_border-bottom-left-radius);
+  padding: var(--mixin-PMHZJbACPOuL_padding-top)
+    var(--mixin-PMHZJbACPOuL_padding-right)
+    var(--mixin-PMHZJbACPOuL_padding-bottom)
+    var(--mixin-PMHZJbACPOuL_padding-left);
+  border-top: var(--mixin-PMHZJbACPOuL_border-top-width)
+    var(--mixin-PMHZJbACPOuL_border-top-style)
+    var(--mixin-PMHZJbACPOuL_border-top-color);
+  border-right: var(--mixin-PMHZJbACPOuL_border-right-width)
+    var(--mixin-PMHZJbACPOuL_border-right-style)
+    var(--mixin-PMHZJbACPOuL_border-right-color);
+  border-bottom: var(--mixin-PMHZJbACPOuL_border-bottom-width)
+    var(--mixin-PMHZJbACPOuL_border-bottom-style)
+    var(--mixin-PMHZJbACPOuL_border-bottom-color);
+  border-left: var(--mixin-PMHZJbACPOuL_border-left-width)
+    var(--mixin-PMHZJbACPOuL_border-left-style)
+    var(--mixin-PMHZJbACPOuL_border-left-color);
+}
+
+:where(.root_reset) ol:where(.ol),
+ol:where(.root_reset.ol),
+:where(.root_reset .__wab_expr_html_text) ol,
+:where(.root_reset_tags) ol,
+ol:where(.root_reset_tags) {
+  display: var(--mixin-mQ3lFblRhVj8_display);
+  flex-direction: var(--mixin-mQ3lFblRhVj8_flex-direction);
+  align-items: var(--mixin-mQ3lFblRhVj8_align-items);
+  justify-content: var(--mixin-mQ3lFblRhVj8_justify-content);
+  list-style-position: var(--mixin-mQ3lFblRhVj8_list-style-position);
+  padding-left: var(--mixin-mQ3lFblRhVj8_padding-left);
+  position: var(--mixin-mQ3lFblRhVj8_position);
+  list-style-type: var(--mixin-mQ3lFblRhVj8_list-style-type);
+  flex-column-gap: var(--mixin-mQ3lFblRhVj8_flex-column-gap);
+}
+
+:where(.root_reset) ul:where(.ul),
+ul:where(.root_reset.ul),
+:where(.root_reset .__wab_expr_html_text) ul,
+:where(.root_reset_tags) ul,
+ul:where(.root_reset_tags) {
+  display: var(--mixin-VhpFwX8v1c6S_display);
+  flex-direction: var(--mixin-VhpFwX8v1c6S_flex-direction);
+  align-items: var(--mixin-VhpFwX8v1c6S_align-items);
+  justify-content: var(--mixin-VhpFwX8v1c6S_justify-content);
+  list-style-position: var(--mixin-VhpFwX8v1c6S_list-style-position);
+  padding-left: var(--mixin-VhpFwX8v1c6S_padding-left);
+  position: var(--mixin-VhpFwX8v1c6S_position);
+  list-style-type: var(--mixin-VhpFwX8v1c6S_list-style-type);
+  flex-column-gap: var(--mixin-VhpFwX8v1c6S_flex-column-gap);
+}
+
+:where(.root_reset) h2:where(.h2),
+h2:where(.root_reset.h2),
+:where(.root_reset .__wab_expr_html_text) h2,
+:where(.root_reset_tags) h2,
+h2:where(.root_reset_tags) {
+  font-size: var(--mixin-XvbchyFgwzrf_font-size);
+  color: var(--mixin-XvbchyFgwzrf_color);
+  font-weight: var(--mixin-XvbchyFgwzrf_font-weight);
+  font-family: var(--mixin-XvbchyFgwzrf_font-family);
+}
