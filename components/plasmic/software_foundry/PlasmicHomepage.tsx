@@ -106,7 +106,46 @@ function PlasmicHomepage__RenderFunc(props: {
 
   return (
     <React.Fragment>
-      <Head></Head>
+      <Head>
+        <meta name="twitter:card" content="summary_large_image" />
+        <title key="title">{PlasmicHomepage.pageMetadata.title}</title>
+        <meta
+          key="og:title"
+          property="og:title"
+          content={PlasmicHomepage.pageMetadata.title}
+        />
+        <meta
+          key="twitter:title"
+          name="twitter:title"
+          content={PlasmicHomepage.pageMetadata.title}
+        />
+        <meta
+          key="description"
+          name="description"
+          content={PlasmicHomepage.pageMetadata.description}
+        />
+        <meta
+          key="og:description"
+          property="og:description"
+          content={PlasmicHomepage.pageMetadata.description}
+        />
+        <meta
+          key="twitter:description"
+          name="twitter:description"
+          content={PlasmicHomepage.pageMetadata.description}
+        />
+        <meta
+          key="og:image"
+          property="og:image"
+          content={PlasmicHomepage.pageMetadata.ogImageSrc}
+        />
+        <meta
+          key="twitter:image"
+          name="twitter:image"
+          content={PlasmicHomepage.pageMetadata.ogImageSrc}
+        />
+        <link ref="canonical" href={PlasmicHomepage.pageMetadata.canonical} />
+      </Head>
 
       <style>{`
         body {
@@ -386,10 +425,12 @@ export const PlasmicHomepage = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "",
-      description: "",
-      ogImageSrc: "",
-      canonical: ""
+      title: "Software Foundry",
+      description:
+        "Step into a new era of web application development where security isn't an afterthought. With Software Foundry, you're not just building apps; you're fortifying them from the ground up. Begin your secure development journey today.",
+      ogImageSrc:
+        "https://site-assets.plasmic.app/bd32b2c3d157eca4face6c8aa2efd8c4.png",
+      canonical: "https://softwarefoundry.org"
     }
   }
 );

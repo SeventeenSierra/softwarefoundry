@@ -1337,76 +1337,6 @@
       "cssFilePath": "plasmic/software_foundry/plasmic_software_foundry.module.css",
       "components": [
         {
-          "id": "xkQQWycy2V6D",
-          "name": "Select",
-          "type": "managed",
-          "projectId": "gqxPS4AgvrvZFiLQ3PbJ65",
-          "renderModuleFilePath": "plasmic/software_foundry/PlasmicSelect.tsx",
-          "importSpec": {
-            "modulePath": "Select.tsx"
-          },
-          "cssFilePath": "plasmic/software_foundry/PlasmicSelect.module.css",
-          "scheme": "blackbox",
-          "componentType": "component",
-          "plumeType": "select"
-        },
-        {
-          "id": "8HxlY0U-7Am0",
-          "name": "Select__Option",
-          "type": "managed",
-          "projectId": "gqxPS4AgvrvZFiLQ3PbJ65",
-          "renderModuleFilePath": "plasmic/software_foundry/PlasmicSelect__Option.tsx",
-          "importSpec": {
-            "modulePath": "Select__Option.tsx"
-          },
-          "cssFilePath": "plasmic/software_foundry/PlasmicSelect__Option.module.css",
-          "scheme": "blackbox",
-          "componentType": "component",
-          "plumeType": "select-option"
-        },
-        {
-          "id": "aZiADhfS3E6a",
-          "name": "Select__OptionGroup",
-          "type": "managed",
-          "projectId": "gqxPS4AgvrvZFiLQ3PbJ65",
-          "renderModuleFilePath": "plasmic/software_foundry/PlasmicSelect__OptionGroup.tsx",
-          "importSpec": {
-            "modulePath": "Select__OptionGroup.tsx"
-          },
-          "cssFilePath": "plasmic/software_foundry/PlasmicSelect__OptionGroup.module.css",
-          "scheme": "blackbox",
-          "componentType": "component",
-          "plumeType": "select-option-group"
-        },
-        {
-          "id": "-Gt3h2PpjHGd",
-          "name": "Select__Overlay",
-          "type": "managed",
-          "projectId": "gqxPS4AgvrvZFiLQ3PbJ65",
-          "renderModuleFilePath": "plasmic/software_foundry/PlasmicSelect__Overlay.tsx",
-          "importSpec": {
-            "modulePath": "Select__Overlay.tsx"
-          },
-          "cssFilePath": "plasmic/software_foundry/PlasmicSelect__Overlay.module.css",
-          "scheme": "blackbox",
-          "componentType": "component",
-          "plumeType": "triggered-overlay"
-        },
-        {
-          "id": "cLCF7A0Hcm_r",
-          "name": "Switch",
-          "type": "managed",
-          "projectId": "gqxPS4AgvrvZFiLQ3PbJ65",
-          "renderModuleFilePath": "plasmic/software_foundry/PlasmicSwitch.tsx",
-          "importSpec": {
-            "modulePath": "Switch.tsx"
-          },
-          "cssFilePath": "plasmic/software_foundry/PlasmicSwitch.module.css",
-          "scheme": "blackbox",
-          "componentType": "component",
-          "plumeType": "switch"
-        },
-        {
           "id": "3WK9FRVCXJcs",
           "name": "Button",
           "type": "managed",
@@ -1421,34 +1351,6 @@
           "plumeType": "button"
         },
         {
-          "id": "W96nhGb8MtHk",
-          "name": "Checkbox",
-          "type": "managed",
-          "projectId": "gqxPS4AgvrvZFiLQ3PbJ65",
-          "renderModuleFilePath": "plasmic/software_foundry/PlasmicCheckbox.tsx",
-          "importSpec": {
-            "modulePath": "Checkbox.tsx"
-          },
-          "cssFilePath": "plasmic/software_foundry/PlasmicCheckbox.module.css",
-          "scheme": "blackbox",
-          "componentType": "component",
-          "plumeType": "checkbox"
-        },
-        {
-          "id": "zEVuJ6opywlr",
-          "name": "TextInput",
-          "type": "managed",
-          "projectId": "gqxPS4AgvrvZFiLQ3PbJ65",
-          "renderModuleFilePath": "plasmic/software_foundry/PlasmicTextInput.tsx",
-          "importSpec": {
-            "modulePath": "TextInput.tsx"
-          },
-          "cssFilePath": "plasmic/software_foundry/PlasmicTextInput.module.css",
-          "scheme": "blackbox",
-          "componentType": "component",
-          "plumeType": "text-input"
-        },
-        {
           "id": "FQZn3RdELGBX",
           "name": "Section",
           "type": "managed",
@@ -1458,19 +1360,6 @@
             "modulePath": "Section.tsx"
           },
           "cssFilePath": "plasmic/software_foundry/PlasmicSection.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
-          "id": "ZxtD48M5gtEh",
-          "name": "Dashboard",
-          "type": "managed",
-          "projectId": "gqxPS4AgvrvZFiLQ3PbJ65",
-          "renderModuleFilePath": "plasmic/software_foundry/PlasmicDashboard.tsx",
-          "importSpec": {
-            "modulePath": "Dashboard.tsx"
-          },
-          "cssFilePath": "plasmic/software_foundry/PlasmicDashboard.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         },
@@ -1497,32 +1386,6 @@
             "modulePath": "PageLayout.tsx"
           },
           "cssFilePath": "plasmic/software_foundry/PlasmicPageLayout.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
-          "id": "bEDFqLeOb3k4",
-          "name": "Statistic",
-          "type": "managed",
-          "projectId": "gqxPS4AgvrvZFiLQ3PbJ65",
-          "renderModuleFilePath": "plasmic/software_foundry/PlasmicStatistic.tsx",
-          "importSpec": {
-            "modulePath": "Statistic.tsx"
-          },
-          "cssFilePath": "plasmic/software_foundry/PlasmicStatistic.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
-          "id": "2a-lavT3QPYI",
-          "name": "Collapse",
-          "type": "managed",
-          "projectId": "gqxPS4AgvrvZFiLQ3PbJ65",
-          "renderModuleFilePath": "plasmic/software_foundry/PlasmicCollapse.tsx",
-          "importSpec": {
-            "modulePath": "Collapse.tsx"
-          },
-          "cssFilePath": "plasmic/software_foundry/PlasmicCollapse.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         },
@@ -1567,19 +1430,6 @@
           "componentType": "component"
         },
         {
-          "id": "hONZ2MGB7n8c",
-          "name": "StatGroup",
-          "type": "managed",
-          "projectId": "gqxPS4AgvrvZFiLQ3PbJ65",
-          "renderModuleFilePath": "plasmic/software_foundry/PlasmicStatGroup.tsx",
-          "importSpec": {
-            "modulePath": "StatGroup.tsx"
-          },
-          "cssFilePath": "plasmic/software_foundry/PlasmicStatGroup.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
           "id": "JQmM1UuIubiQ",
           "name": "NavigationBar",
           "type": "managed",
@@ -1589,19 +1439,6 @@
             "modulePath": "NavigationBar.tsx"
           },
           "cssFilePath": "plasmic/software_foundry/PlasmicNavigationBar.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
-          "id": "SFlUPIvRq02p",
-          "name": "Content",
-          "type": "managed",
-          "projectId": "gqxPS4AgvrvZFiLQ3PbJ65",
-          "renderModuleFilePath": "plasmic/software_foundry/PlasmicContent.tsx",
-          "importSpec": {
-            "modulePath": "Content.tsx"
-          },
-          "cssFilePath": "plasmic/software_foundry/PlasmicContent.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         },
@@ -1618,45 +1455,6 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/partnership"
-        },
-        {
-          "id": "Cv9BEflFEWoE",
-          "name": "Stepper",
-          "type": "managed",
-          "projectId": "gqxPS4AgvrvZFiLQ3PbJ65",
-          "renderModuleFilePath": "plasmic/software_foundry/PlasmicStepper.tsx",
-          "importSpec": {
-            "modulePath": "Stepper.tsx"
-          },
-          "cssFilePath": "plasmic/software_foundry/PlasmicStepper.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
-          "id": "6sSbjuHfVQ0X",
-          "name": "Card",
-          "type": "managed",
-          "projectId": "gqxPS4AgvrvZFiLQ3PbJ65",
-          "renderModuleFilePath": "plasmic/software_foundry/PlasmicCard.tsx",
-          "importSpec": {
-            "modulePath": "Card.tsx"
-          },
-          "cssFilePath": "plasmic/software_foundry/PlasmicCard.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
-          "id": "1nyIJTsPqoBJ",
-          "name": "Question",
-          "type": "managed",
-          "projectId": "gqxPS4AgvrvZFiLQ3PbJ65",
-          "renderModuleFilePath": "plasmic/software_foundry/PlasmicQuestion.tsx",
-          "importSpec": {
-            "modulePath": "Question.tsx"
-          },
-          "cssFilePath": "plasmic/software_foundry/PlasmicQuestion.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
         },
         {
           "id": "SAIz_cdxQrvD",
