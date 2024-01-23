@@ -149,7 +149,7 @@
   > img {
   margin-top: 16px;
 }
-.text {
+.text__iewKz {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -186,10 +186,10 @@
   > img {
   margin-left: 16px;
 }
-.svg {
-  object-fit: cover;
-  width: 24px;
-  height: 24px;
-  color: #05050599;
-  flex-shrink: 0;
+.text__nlQkR {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
 }

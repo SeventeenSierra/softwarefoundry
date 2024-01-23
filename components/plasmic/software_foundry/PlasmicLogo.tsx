@@ -117,16 +117,16 @@ function PlasmicLogo__RenderFunc(props: {
         data-plasmic-override={overrides.img}
         alt={""}
         className={classNames(sty.img)}
-        displayHeight={"50px"}
+        displayHeight={"56px"}
         displayMaxHeight={"none"}
         displayMaxWidth={"none"}
         displayMinHeight={"0"}
         displayMinWidth={"0"}
-        displayWidth={"230px"}
+        displayWidth={"56px"}
         src={{
-          src: "/plasmic/software_foundry/images/image26.png",
-          fullWidth: 466,
-          fullHeight: 100,
+          src: "/plasmic/software_foundry/images/dallE20240122212442DesignALogoCenteredOnAWhiteBackgroundTheLogoFeaturesAStylizedAnvilOrForgeIncorporatingDigitalElementsLikeCircuitLinesOrPixelaRemovebgPreviewpng.png",
+          fullWidth: 500,
+          fullHeight: 500,
           aspectRatio: undefined
         }}
       />

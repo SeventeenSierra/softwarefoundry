@@ -12,8 +12,8 @@
 .img {
   object-fit: fill;
   transform: none;
-  width: 230px;
-  height: 50px;
+  height: 56px;
+  width: 56px;
   flex-shrink: 0;
 }
 .img > picture > img {

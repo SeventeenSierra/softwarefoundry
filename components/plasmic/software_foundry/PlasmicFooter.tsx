@@ -46,8 +46,6 @@ import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic_antd_5_hostl
 import projectcss from "./plasmic_software_foundry.module.css"; // plasmic-import: gqxPS4AgvrvZFiLQ3PbJ65/projectcss
 import sty from "./PlasmicFooter.module.css"; // plasmic-import: Q20KHtWWjNMw/css
 
-import Icon14Icon from "./icons/PlasmicIcon__Icon14"; // plasmic-import: BFg-gz9PJW-G/icon
-
 createPlasmicElementProxy;
 
 export type PlasmicFooter__VariantMembers = {
@@ -69,8 +67,6 @@ export type PlasmicFooter__OverridesType = {
   root?: p.Flex<"div">;
   columns?: p.Flex<"div">;
   column?: p.Flex<"div">;
-  text?: p.Flex<"div">;
-  svg?: p.Flex<"svg">;
 };
 
 export interface DefaultFooterProps {
@@ -183,27 +179,28 @@ function PlasmicFooter__RenderFunc(props: {
                 })}
               >
                 <div
-                  data-plasmic-name={"text"}
-                  data-plasmic-override={overrides.text}
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text
+                    sty.text__iewKz
                   )}
                 >
-                  {"Follow us to get updates"}
+                  {"Made with <3 by"}
                 </div>
                 <p.Stack
                   as={"div"}
                   hasGap={true}
                   className={classNames(projectcss.all, sty.freeBox__ldbWw)}
                 >
-                  <Icon14Icon
-                    data-plasmic-name={"svg"}
-                    data-plasmic-override={overrides.svg}
-                    className={classNames(projectcss.all, sty.svg)}
-                    role={"img"}
-                  />
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__nlQkR
+                    )}
+                  >
+                    {"Seventeen Sierra, LLC"}
+                  </div>
                 </p.Stack>
               </p.Stack>
             </div>
@@ -215,11 +212,9 @@ function PlasmicFooter__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "columns", "column", "text", "svg"],
-  columns: ["columns", "column", "text", "svg"],
-  column: ["column", "text", "svg"],
-  text: ["text"],
-  svg: ["svg"]
+  root: ["root", "columns", "column"],
+  columns: ["columns", "column"],
+  column: ["column"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -228,8 +223,6 @@ type NodeDefaultElementType = {
   root: "div";
   columns: "div";
   column: "div";
-  text: "div";
-  svg: "svg";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -294,8 +287,6 @@ export const PlasmicFooter = Object.assign(
     // Helper components rendering sub-elements
     columns: makeNodeComponent("columns"),
     column: makeNodeComponent("column"),
-    text: makeNodeComponent("text"),
-    svg: makeNodeComponent("svg"),
 
     // Metadata about props expected for PlasmicFooter
     internalVariantProps: PlasmicFooter__VariantProps,

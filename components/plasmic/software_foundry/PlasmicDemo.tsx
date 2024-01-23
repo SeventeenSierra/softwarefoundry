@@ -182,7 +182,7 @@ function PlasmicDemo__RenderFunc(props: {
                         sty.text__ylxBo
                       )}
                     >
-                      {"Try Demo"}
+                      {"Try a Demo"}
                     </div>
                   </Button>
                   <Button

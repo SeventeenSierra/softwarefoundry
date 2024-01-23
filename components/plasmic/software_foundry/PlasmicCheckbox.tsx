@@ -136,6 +136,7 @@ export type PlasmicCheckbox__ArgsType = {
   value?: string;
   "aria-label"?: string;
   "aria-labelledby"?: string;
+  onChange?: (isChecked: boolean) => void;
   onNoLabelChange?: (val: any) => void;
 };
 type ArgPropType = keyof PlasmicCheckbox__ArgsType;
@@ -145,6 +146,7 @@ export const PlasmicCheckbox__ArgProps = new Array<ArgPropType>(
   "value",
   "aria-label",
   "aria-labelledby",
+  "onChange",
   "onNoLabelChange"
 );
 
@@ -158,6 +160,7 @@ export type PlasmicCheckbox__OverridesType = {
 export interface DefaultCheckboxProps extends pp.CheckboxProps {
   "aria-label"?: string;
   "aria-labelledby"?: string;
+  onChange?: (isChecked: boolean) => void;
   onNoLabelChange?: (val: any) => void;
   color?: SingleChoiceArg<
     | "error"

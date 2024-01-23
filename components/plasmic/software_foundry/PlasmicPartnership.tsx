@@ -206,7 +206,7 @@ function PlasmicPartnership__RenderFunc(props: {
                   <Button
                     className={classNames("__wab_instance", sty.button__eJsGr)}
                     color={"clear"}
-                    link={`/partnership`}
+                    link={`/demo`}
                   >
                     <div
                       className={classNames(
